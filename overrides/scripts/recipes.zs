@@ -68,15 +68,15 @@ recipes.addShaped(<lightningcraft:guide>, [
   [<lightningcraft:golf_club>, <minecraft:book>, null]
 ]);
 
-/*~~~~~~~~~~~
-Vanilla items:
-~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~
+OreDictify Vanilla items:
+~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 # Name Tag
 recipes.addShaped(<minecraft:name_tag>, [
   [null, null, <minecraft:string>],
-  [<ore:paper>, <minecraft:gold_ingot>, <ore:paper>],
-  [<minecraft:gold_ingot>, null, null]
+  [<ore:paper>, <ore:ingotGold>, <ore:paper>],
+  [<ore:ingotGold>, null, null]
 ]);
 
 # Bread
@@ -102,6 +102,26 @@ recipes.addShaped(<minecraft:hopper> * 1, [
   [<ore:ingotIron>, <ore:logWood>, <ore:ingotIron>],
   [<ore:ingotIron>, <ore:logWood>, <ore:ingotIron>],
   [null, <ore:ingotIron>]
+]);
+
+# Horse Armor
+recipes.remove(<minecraft:iron_horse_armor>);
+recipes.addShaped(<minecraft:iron_horse_armor>, [
+  [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+  [<ore:leather>, <ore:blockWool>, <ore:leather>],
+  [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);
+recipes.remove(<minecraft:golden_horse_armor>);
+recipes.addShaped(<minecraft:golden_horse_armor>, [
+  [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+  [<ore:leather>, <ore:blockWool>, <ore:leather>],
+  [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
+]);
+recipes.remove(<minecraft:diamond_horse_armor>);
+recipes.addShaped(<minecraft:diamond_horse_armor>, [
+  [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+  [<ore:leather>, <ore:blockWool>, <ore:leather>], 
+  [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
 ]);
 
 print("==== Initialized recipes.zs ====");
