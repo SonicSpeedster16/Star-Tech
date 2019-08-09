@@ -6,13 +6,9 @@
 import mods.industrialforegoing.BioReactor;
 import mods.industrialforegoing.ProteinReactor;
 
-print("---- Initializing compat.zs ----");
+print("==== Initializing compat.zs ====");
 
-# Casting blocks of cobalt shouldn't produce Chisel blocks
-mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
-mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
-
-# Add Pam's HarvestCraft support to reactors from Industrial Foregoing
+# Add Pam's HarvestCraft compat to Industrial Foregoing's reactors
 for item in <ore:listAllmeatraw>.items {
            ProteinReactor.add(item);
 }
@@ -29,7 +25,7 @@ for fruit in <ore:listAllfruit>.items {
             BioReactor.add(fruit);
 }
 
-# Add compat for additional fuels to the Tinkers Smeltery
+# Add compat for additional fuels to be used in the Tinkers Smeltery
 <liquid:sulfuricacid>.definition.temperature = 1500;
 <liquid:astralsorcery.liquidstarlight>.definition.temperature = 2500;
 <liquid:pyrotheum>.definition.temperature = 4000;
@@ -109,7 +105,7 @@ mods.mekanism.enrichment.addRecipe(<nex:quartz_ore:1>, <minecraft:quartz> * 6);
 mods.mekanism.enrichment.addRecipe(<nex:quartz_ore:2>, <minecraft:quartz> * 6);
 mods.mekanism.enrichment.addRecipe(<nex:quartz_ore:3>, <minecraft:quartz> * 6);
 
-# Starmetal compat for Mekanism smelter
+# Add Starmetal compat for the Mekanism smelter
 mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
 
-print("---- Initialized compat.zs ----");
+print("==== Initialized compat.zs ====");

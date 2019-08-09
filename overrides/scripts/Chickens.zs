@@ -1,11 +1,14 @@
 #Name: Chickens.zs
 #Author: SonicSpeedster16
-#Description: Add/modify recipes for tier 1 chicken and colored eggs
+#Description: Add/modify recipes for tier 1 chickens and colored eggs
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing Chickens.zs ----");
+print("==== Initializing Chickens.zs ====");
 
-# Tier 1 chicken eggs
+/*~~~~~~~~~~~~~~~~~
+Tier 1 chicken eggs
+~~~~~~~~~~~~~~~~~~*/
+
 recipes.addShaped(<chickens:spawn_egg>.withTag({
   ChickenType: {
     id: "chickens:flintchicken"
@@ -56,7 +59,10 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
   [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]
 ]);
 
-# Colored eggs
+/*~~~~~~~~~~
+Colored eggs
+~~~~~~~~~~~*/
+
 recipes.remove(<chickens:colored_egg>);
 recipes.remove(<chickens:colored_egg:1>);
 recipes.remove(<chickens:colored_egg:2>);
@@ -155,4 +161,4 @@ recipes.addShaped(<chickens:colored_egg:15>, [
   [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]
 ]);
 
-print("---- Initialized Chickens.zs ----");
+print("==== Initialized Chickens.zs ====");

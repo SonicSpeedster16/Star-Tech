@@ -6,7 +6,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-print("---- Initializing jei.zs ----");
+print("==== Initializing jei.zs ====");
 
 # Custom Tooltips
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
@@ -69,4 +69,4 @@ JEI.removeAndHide(<moreplanets:fronos_farmland>);
 # Twilight Forest
 JEI.removeAndHide(<twilightforest:uncrafting_table>);
 
-print("---- Initialized jei.zs ----");
+print("==== Initialized jei.zs ====");

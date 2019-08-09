@@ -3,9 +3,9 @@
 #Description: Various changes related to space travel and items
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing Space.zs ----");
+print("==== Initializing Space.zs ====");
 
-# Make the dungeon locater obtainable in Mars Treasure chest
+# Make the dungeon locater obtainable in Mars Treasure chests
 mods.GalacticraftTweaker.addDungeonLoot(2, <galacticraftcore:dungeonfinder>);
 
 # Make Anti-Rads (a lot) less complicated to obtain
@@ -162,4 +162,4 @@ recipes.addShaped(<extraplanets:tier4_space_suit_gravity_boots>, [
   [null, <extraplanets:gravity_controller>, null]
 ]);
 
-print("---- Initialized Space.zs ----");
+print("==== Initialized Space.zs ====");

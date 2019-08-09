@@ -3,9 +3,9 @@
 #Description: Recipe removals/modifications
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing recipes.zs ----");
+print("==== Initializing recipes.zs ====");
 
-# Allow resmelting of blank Tinkers cast
+# Allow resmelting of a blank Tinkers cast
 mods.tconstruct.Melting.addRecipe(<liquid:alubrass> * 144, <tconstruct:cast>);
 
 # Did somebody say they saw a mushroom cloud? :D
@@ -104,4 +104,4 @@ recipes.addShaped(<minecraft:hopper> * 1, [
   [null, <ore:ingotIron>]
 ]);
 
-print("---- Initialized recipes.zs ----");
+print("==== Initialized recipes.zs ====");

@@ -5,7 +5,7 @@
 
 import mods.chisel.Carving.addVariation;
 
-print("---- Initializing Chisel.zs ----");
+print("==== Initializing Chisel.zs ====");
 
 # Marble
 addVariation("sootymarble", <astralsorcery:blockblackmarble:0>);
@@ -44,4 +44,4 @@ addVariation("castlebrickdoor", <twilightforest:castle_door:1>);
 addVariation("castlebrickdoor", <twilightforest:castle_door:2>);
 addVariation("castlebrickdoor", <twilightforest:castle_door:3>);
 
-print("---- Initialized compat.zs ----");
+print("==== Initialized compat.zs ====");

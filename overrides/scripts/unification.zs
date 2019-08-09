@@ -3,11 +3,15 @@
 #Description: Unify items, recipes, and machine outputs.
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing unification.zs ----");
+print("==== Initializing unification.zs ====");
 
 # Sapphire conversion
 recipes.addShapeless(<biomesoplenty:gem:6>, [<iceandfire:sapphire_gem>]);
 recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
+
+# Casting Tinkers Cobalt blocks shouldn't produce Chisel blocks
+mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
 
 # Unify outputs of Silicon Ore processing
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftplanets:venus:10>, 1.0);
@@ -33,13 +37,13 @@ recipes.addShapeless(<thermalfoundation:material:163> * 4, [<ore:ingotCopper>, <
 mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 2, [[<forestry:broken_bronze_pickaxe>]], 30);
 mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 1, [[<forestry:broken_bronze_shovel>]], 30);
 
-# Remove UniDict's Gear, Plate and Rod Unification to prevent conflicts
+# Remove UniDict's Gear and Plate Unification to prevent conflicts
 mods.unidict.removalByKind.get("Crafting").remove("gear");
 mods.unidict.removalByKind.get("Crafting").remove("plate");
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/*~~~~~~~~~~~~~~~~~~~~~
 Standardize Rod recipes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+~~~~~~~~~~~~~~~~~~~~~~*/
 # Stone
 recipes.remove(<tconstruct:stone_stick>);
 recipes.addShaped(<tconstruct:stone_stick>, [
@@ -361,4 +365,4 @@ recipes.addShaped(<lightningcraft:plate:9>, [
   [<ore:ingotMystic>, <ore:ingotMystic>, <ore:ingotMystic>]
 ]);
 
-print("---- Initialized unification.zs ----");
+print("==== Initialized unification.zs ====");

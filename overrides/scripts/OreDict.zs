@@ -3,7 +3,7 @@
 #Description: Modify Ore Dictionary entries
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing OreDict.zs ----");
+print("==== Initializing OreDict.zs ====");
 
 # Add Block of Charcoal from Forestry to the Ore Dictionary
 <ore:blockCharcoal>.add(<forestry:charcoal>);
@@ -68,4 +68,4 @@ print("---- Initializing OreDict.zs ----");
 # String != flax
 <ore:cropFlax>.remove(<minecraft:string>);
 
-print("---- Initialized OreDict.zs ----");
+print("=== Initialized OreDict.zs ====");

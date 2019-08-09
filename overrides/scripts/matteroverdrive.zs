@@ -3,7 +3,7 @@
 #Description: Add missing recipes for items from Matter Overdrive
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
-print("---- Initializing matteroverdrive.zs ----");
+print("==== Initializing matteroverdrive.zs ====");
 
 # Industrial Glass
 recipes.addShaped(<matteroverdrive:industrial_glass>, [
@@ -266,4 +266,4 @@ recipes.addShaped(<matteroverdrive:weapon_module_color:9>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeGray>, <matteroverdrive:tritanium_plate>],
 ]);
 
-print("---- Initialized matteroverdrive.zs ----");
+print("==== Initialized matteroverdrive.zs ====");
