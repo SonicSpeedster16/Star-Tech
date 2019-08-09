@@ -1,0 +1,139 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:logo.png",
+            "posX" : -64,
+            "posY" : -140,
+            "height" : 128,
+            "width" : 128,
+            "imageWidth": 612,
+            "imageHeight": 612,
+            "alignment" : "center"
+		}
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -25,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    "labels":
+    {
+			  "modpack":
+        {
+            "text" : "Star Tech v2.0.0",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "hoverText" : "§nCopyright Mojang AB",
+            "posX" : -85,
+            "posY" : -7,
+            "fontSize" : 0.8,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"mode" : "stretch"
+		}
+    }
+}

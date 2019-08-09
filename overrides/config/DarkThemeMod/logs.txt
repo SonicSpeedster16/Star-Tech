@@ -1,0 +1,82 @@
+Processing texture: minecraft:textures/gui/widgets.png
+Detected new text stack trace class: com.zeitheron.darktheme.internal.GUIAwareFontRenderer
+Detected new text stack trace class: lumien.custommainmenu.gui.GuiCustomButton
+Processing texture: minecraft:textures/gui/options_background.png
+Detected new text stack trace class: net.minecraft.client.gui.GuiListWorldSelectionEntry
+Detected new text stack trace class: net.minecraft.client.gui.GuiListExtended
+Detected new text stack trace class: net.minecraft.client.gui.GuiSlot
+Detected new text stack trace class: net.minecraft.client.gui.GuiWorldSelection
+Detected new font color #ffffff in class net.minecraft.client.gui.GuiWorldSelection. Replaced to #bbbbbb
+Detected new font color #808080 in class net.minecraft.client.gui.GuiWorldSelection. Replaced to #808080
+Detected new text stack trace class: net.minecraft.client.gui.Gui
+Detected new font color #a0a0a0 in class net.minecraft.client.gui.Gui. Replaced to #a0a0a0
+Detected new font color #e0e0e0 in class net.minecraft.client.gui.Gui. Replaced to #e0e0e0
+Processing texture: minecraft:textures/gui/world_selection.png
+Detected new font color #ffffa0 in class net.minecraft.client.gui.Gui. Replaced to #ffffa0
+Detected new text stack trace class: net.minecraft.client.gui.GuiTextField
+Detected new text stack trace class: net.minecraft.client.LoadingScreenRenderer
+Detected new text stack trace class: net.minecraft.client.Minecraft
+Detected new text stack trace class: net.minecraft.client.gui.GuiCreateWorld
+Processing texture: toastcontrol:textures/gui/toasts.png
+Detected new text stack trace class: matteroverdrive.handler.thread.RegistryToast
+Detected new text stack trace class: shadows.toaster.BetterGuiToast$BetterToastInstance
+Detected new text stack trace class: shadows.toaster.BetterGuiToast
+Detected new text stack trace class: net.minecraft.client.network.NetHandlerPlayClient
+Detected new text stack trace class: net.minecraft.network.play.server.SPacketJoinGame
+Detected new text stack trace class: net.minecraft.network.PacketThreadUtil$1
+Detected new text stack trace class: java.util.concurrent.Executors$RunnableAdapter
+Detected new text stack trace class: java.util.concurrent.FutureTask
+Detected new text stack trace class: net.minecraft.util.Util
+Detected new text stack trace class: net.minecraft.client.main.Main
+Detected new text stack trace class: sun.reflect.NativeMethodAccessorImpl
+Detected new text stack trace class: sun.reflect.DelegatingMethodAccessorImpl
+Detected new text stack trace class: java.lang.reflect.Method
+Detected new text stack trace class: net.minecraft.launchwrapper.Launch
+Detected new text stack trace class: org.multimc.onesix.OneSixLauncher
+Detected new text stack trace class: org.multimc.EntryPoint
+Processing texture: minecraft:textures/gui/icons.png
+Processing texture: xaerobetterpvp:gui/guis.png
+Detected new text stack trace class: xaero.common.minimap.waypoints.render.WaypointsGuiRenderer
+Detected new text stack trace class: xaero.common.minimap.render.MinimapRenderer
+Detected new text stack trace class: xaero.common.minimap.MinimapProcessor
+Detected new text stack trace class: xaero.common.minimap.MinimapInterface
+Detected new text stack trace class: xaero.common.interfaces.render.InterfaceRenderer
+Detected new text stack trace class: xaero.common.events.ForgeEventHandler
+Detected new text stack trace class: net.minecraftforge.fml.common.eventhandler.ASMEventHandler
+Detected new text stack trace class: net.minecraftforge.fml.common.eventhandler.EventBus
+Detected new text stack trace class: net.minecraftforge.client.GuiIngameForge
+Detected new text stack trace class: net.minecraft.client.gui.GuiNewChat
+Detected new text stack trace class: micdoodle8.mods.galacticraft.core.tick.TickHandlerClient
+Detected new text stack trace class: net.minecraftforge.fml.common.FMLCommonHandler
+Detected new text stack trace class: mezz.jei.gui.PageNavigation
+Detected new text stack trace class: mezz.jei.gui.overlay.IngredientGridWithNavigation
+Detected new text stack trace class: mezz.jei.gui.overlay.IngredientListOverlay
+Detected new text stack trace class: mezz.jei.gui.GuiEventHandler
+Detected new text stack trace class: net.minecraft.client.gui.GuiScreen
+Processing texture: minecraft:textures/gui/container/creative_inventory/tabs.png
+Processing texture: minecraft:textures/gui/container/creative_inventory/tab_items.png
+Processing texture: ftblib:textures/gui/teams.png
+Detected new text stack trace class: net.minecraft.client.gui.inventory.GuiContainerCreative
+Detected new font color #404040 in class net.minecraft.client.gui.inventory.GuiContainerCreative. Replaced to #bbbbbb
+Detected new text stack trace class: net.minecraftforge.fml.client.config.GuiUtils
+Detected new text stack trace class: mezz.jei.gui.TooltipRenderer
+Detected new text stack trace class: mezz.jei.render.IngredientRenderer
+Detected new text stack trace class: mezz.jei.gui.overlay.IngredientGrid
+Detected new text stack trace class: net.minecraftforge.client.ForgeHooksClient
+Detected new text stack trace class: net.minecraft.client.renderer.EntityRenderer
+Detected new text stack trace class: mezz.jei.gui.recipes.RecipesGui
+Processing texture: jei:textures/gui/gui_vanilla.png
+Processing texture: thermalexpansion:textures/gui/machine/compactor.png
+Processing texture: thermalexpansion:textures/gui/jei_handler.png
+Detected new text stack trace class: net.minecraft.client.renderer.RenderItem
+Detected new text stack trace class: mezz.jei.plugins.vanilla.ingredients.item.ItemStackRenderer
+Detected new text stack trace class: mezz.jei.gui.ingredients.GuiIngredient
+Processing texture: chickens:textures/gui/laying_icon.png
+Processing texture: chickens:textures/gui/drops_icon.png
+Processing texture: jeresources:textures/gui/tabs.png
+Detected new text stack trace class: mezz.jei.gui.recipes.RecipeGuiTabs
+Processing texture: hatchery:textures/gui/nestingpen_drops.png
+Processing texture: tconstruct:textures/gui/jei/casting.png
+Detected new text stack trace class: slimeknights.tconstruct.plugin.jei.casting.CastingRecipeWrapper
+Detected new text stack trace class: mezz.jei.gui.recipes.RecipeLayout
+Detected new text stack trace class: net.minecraft.client.gui.GuiIngameMenu
