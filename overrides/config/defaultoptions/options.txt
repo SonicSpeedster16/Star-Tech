@@ -51,7 +51,7 @@ realmsNotifications:false
 enableWeakAttacks:false
 autoJump:false
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

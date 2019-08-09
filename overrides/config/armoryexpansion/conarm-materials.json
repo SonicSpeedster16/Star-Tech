@@ -122,12 +122,12 @@
   {
     "coreMaterialStats": {
       "durability": 33.0,
-      "defense": 34.2,
+      "defense": 29.7,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 22.4,
-      "modifier": 34.2,
+      "modifier": 29.7,
       "toughness": 0.0,
       "materialType": "plates"
     },
@@ -170,17 +170,17 @@
   {
     "coreMaterialStats": {
       "durability": 8.0,
-      "defense": 31.5,
+      "defense": 27.0,
       "materialType": "core"
     },
     "platesMaterialStats": {
-      "durability": 11.2,
-      "modifier": 31.5,
+      "durability": 10.08,
+      "modifier": 27.0,
       "toughness": 0.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
-      "extraDurability": 11.2,
+      "extraDurability": 10.08,
       "materialType": "trim"
     },
     "identifier": "steeleaf",
@@ -1033,18 +1033,18 @@
   },
   {
     "coreMaterialStats": {
-      "durability": 56.0,
-      "defense": 31.5,
+      "durability": 42.0,
+      "defense": 27.0,
       "materialType": "core"
     },
     "platesMaterialStats": {
-      "durability": 61.6,
-      "modifier": 31.5,
+      "durability": 44.8,
+      "modifier": 27.0,
       "toughness": 0.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
-      "extraDurability": 61.6,
+      "extraDurability": 44.8,
       "materialType": "trim"
     },
     "identifier": "knightmetal",
@@ -1101,54 +1101,6 @@
     "type": "METAL",
     "isCastable": false,
     "isCraftable": true,
-    "traits": []
-  },
-  {
-    "coreMaterialStats": {
-      "durability": 1.0,
-      "defense": 9.0,
-      "materialType": "core"
-    },
-    "platesMaterialStats": {
-      "durability": 2.24,
-      "modifier": 9.0,
-      "toughness": 0.0,
-      "materialType": "plates"
-    },
-    "trimMaterialStats": {
-      "extraDurability": 2.24,
-      "materialType": "trim"
-    },
-    "identifier": "treatedwood",
-    "meta": 0,
-    "color": -10144478,
-    "type": "METAL",
-    "isCastable": false,
-    "isCraftable": true,
-    "traits": []
-  },
-  {
-    "coreMaterialStats": {
-      "durability": 1.0,
-      "defense": 18.0,
-      "materialType": "core"
-    },
-    "platesMaterialStats": {
-      "durability": 6.72,
-      "modifier": 18.0,
-      "toughness": 0.0,
-      "materialType": "plates"
-    },
-    "trimMaterialStats": {
-      "extraDurability": 6.72,
-      "materialType": "trim"
-    },
-    "identifier": "constantan",
-    "meta": 0,
-    "color": -1015446,
-    "type": "METAL",
-    "isCastable": true,
-    "isCraftable": false,
     "traits": []
   },
   {
