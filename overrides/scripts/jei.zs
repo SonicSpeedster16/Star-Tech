@@ -27,6 +27,10 @@ JEI.removeAndHide(<iceandfire:silver_ore>); /* Silver Ore */
 JEI.removeAndHide(<bigreactors:oreanglesite>); /* Anglesite Ore */
 JEI.removeAndHide(<bigreactors:orebenitoite>); /* Benitoite Ore */
 
+# Hide items that are exploitable or cause crashes
+JEI.removeAndHide(<hooked:hook:3>); /* Causes server crashes */
+JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Explotable */
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 Hide other modded items (such as particles, items with no uses, etc.):
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -65,8 +69,5 @@ JEI.removeAndHide(<moreplanets:fronos_cracked_stone_bricks>);
 JEI.removeAndHide(<moreplanets:fronos_chiseled_stone_bricks>);
 JEI.removeAndHide(<moreplanets:fronos_dungeon_brick>);
 JEI.removeAndHide(<moreplanets:fronos_farmland>);
-
-# Twilight Forest
-JEI.removeAndHide(<twilightforest:uncrafting_table>);
 
 print("==== Initialized jei.zs ====");
