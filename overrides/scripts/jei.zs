@@ -11,7 +11,7 @@ print("==== Initializing jei.zs ====");
 # Custom Tooltips
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
 <conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));
-<extrautils2:goldenlasso>.addTooltip(format.red("WARNING! Mobs may disappear when released! Recommended to use Animal Nets or Ender IO soul vials instead"));
+<extrautils2:goldenlasso>.addTooltip(format.red("WARNING! Mobs may disappear when released! Recommend you use Animal Nets or Ender IO soul vials instead"));
 <galacticraftcore:dungeonfinder>.addTooltip(format.yellow("Can be obtained in Survival Mode from Tier 2 Treasure Chests on Mars"));
 <matteroverdrive:microwave>.addTooltip(format.yellow("Decorative only"));
 <lightningcraft:material:11>.addTooltip(format.yellow("Can be found in structures on the ceiling of the Underworld"));
@@ -19,6 +19,9 @@ print("==== Initializing jei.zs ====");
 <appliedenergistics2:sky_stone_block>.addTooltip(format.aqua("You can only get this from fallen meteors in the Mining Dimension"));
 <appliedenergistics2:sky_compass>.addTooltip(format.aqua("You can find AE2 meteors only in the Mining Dimension"));
 <hatchery:animalnet>.addTooltip(format.yellow("This net can only capture chickens"));
+<liquid:sulfuricacid>.addTooltip(format.yellow("Can be used as fuel in a Tinkers smeltery"));
+<liquid:astralsorcery.liquidstarlight>.addTooltip(format.yellow("Can be used as fuel in a Tinkers smeltery"));
+<liquid:pyrotheum>.addTooltip(format.yellow("Can be used as fuel in a Tinkers smeltery"));
 
 # Hide ores not used in world gen
 JEI.removeAndHide(<forestry:resources:1>); /* Copper Ore */
