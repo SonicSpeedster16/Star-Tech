@@ -8,6 +8,10 @@ import mods.industrialforegoing.ProteinReactor;
 
 print("==== Initializing compat.zs ====");
 
+# Sulfer and Rosin should be burnable as fuel
+furnace.setFuel(<ore:dustSulfur>, 300);
+furnace.setFuel(<thermalfoundation:material:832>, 800);
+
 # Add Pam's HarvestCraft compat to Industrial Foregoing's reactors
 for item in <ore:listAllmeatraw>.items {
            ProteinReactor.add(item);
