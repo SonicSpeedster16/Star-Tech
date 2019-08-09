@@ -112,4 +112,21 @@ mods.mekanism.enrichment.addRecipe(<nex:quartz_ore:3>, <minecraft:quartz> * 6);
 # Add Starmetal compat for the Mekanism smelter
 mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
 
+# Add compat for Ender IO materials to machines from other mods
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:36>, <enderio:item_material:14>, 2000);
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:37>, <enderio:item_material:16>, 2000);
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:34>, <enderio:item_material:19>, 2000);
+mods.extrautils2.Crusher.add(<enderio:item_material:36>, <enderio:item_material:14>);
+mods.extrautils2.Crusher.add(<enderio:item_material:37>, <enderio:item_material:16>);
+mods.extrautils2.Crusher.add(<enderio:item_material:34>, <enderio:item_material:19>);
+mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:36>, <enderio:item_material:14>);
+mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:37>, <enderio:item_material:16>);
+mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:34>, <enderio:item_material:19>);
+mods.mekanism.crusher.addRecipe(<enderio:item_material:14>, <enderio:item_material:36>);
+mods.mekanism.crusher.addRecipe(<enderio:item_material:16>, <enderio:item_material:37>);
+mods.mekanism.crusher.addRecipe(<enderio:item_material:19>, <enderio:item_material:34>);
+Grinder.addRecipe(<enderio:item_material:36>, <enderio:item_material:14>, 4); /* AE2 Grindstone */
+Grinder.addRecipe(<enderio:item_material:37>, <enderio:item_material:16>, 4); /* AE2 Grindstone */
+Grinder.addRecipe(<enderio:item_material:34>, <enderio:item_material:19>, 4); /* AE2 Grindstone */
+
 print("==== Initialized compat.zs ====");
