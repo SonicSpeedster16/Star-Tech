@@ -1,7 +1,7 @@
 [
   {
     "item" : "oreCertusQuartz",
-    "color" : 3,
+    "color" : 8,
     "rarity" : [
       {
         "whitelist": "",
@@ -21,7 +21,7 @@
   },
   {
     "item" : "oreChargedCertusQuartz",
-    "color" : 3,
+    "color" : 8,
     "rarity" : [
       {
         "whitelist": "",

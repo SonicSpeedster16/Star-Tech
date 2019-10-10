@@ -42,7 +42,6 @@ mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 1, [[<fores
 recipes.remove(<galacticraftcore:food:6>); /* Ground Beef */
 mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:beef>); /* Ground Beef */
 recipes.removeByRecipeName("thermalfoundation:gem_6"); /* Sapphire */
-recipes.removeByRecipeName("thermalfoundation:quartz"); /* Nether Quartz Ore + Petrotheum Dust */
 
 # Shapelessly convert items to the correct type
 recipes.addShapeless("sapphire_conversion",

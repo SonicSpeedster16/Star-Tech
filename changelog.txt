@@ -1,3 +1,42 @@
+Star Tech 2.3.0  (10-10-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Fixed more exploits allowing space ores to be obtained without actually going to space.
+-Fixed Industrial Foregoing's Laser Drill (it should now correctly mine for all Overworld ores in the game).
+-Added a more efficient way to get Quartz Enriched Iron.
+-Added recipes to make normal Ender IO capacitors interchangeable with the Endergized capacitors.
+-Fake Players are now able to use the Thermal Cultivation Watering Can.
+-Petrotheum Dust can no longer smelt ores in a crafting table.
+-Charged Certus Quartz is now more rarely found in the world.
+-Enderminies can now spawn on blocks other than vanilla grass.
+-Blacklisted some items from being allowed to go into the Traveller's Sack (to provide consistency with backpacks).
+-Disabled integration with mods not included in the pack.
+-Disabled initOptions in the FoamFix config (fixes conflict with Default Options).
+
+MODS:
+Removed:
+-Ranged Pumps (there are a couple other options for pumps).
+Added:
+-Integration Foregoing 1.9
+Updated:
+-Bookshelf (2.3.588 > 2.3.589)
+-FTB Library (5.4.3.138 > 5.4.3.141)
+-FTB Utilities (5.4.0.106 > 5.4.0.107)
+-Flux Networks (4.0.10 > 4.0.11)
+-FoamFix (0.10.5 > 0.10.7)
+-Forestry (5.8.2.394 > 5.8.2.406)
+-Ice and Fire (1.8.2 > 1.8.3)
+-Just Enough Items (4.15.0.289 > 4.15.0.291)
+-LibraryEx (1.0.11 > 1.0.12)
+-Logistics Pipes (0.10.2.208 > 0.10.2.211)
+-RandomPatches (1.19.0.0 > 1.19.1.1)
+
+SERVER:
+-
+
+
 Star Tech 2.2.0  (10-05-2019)
 -------------------------------------
 COMMENTS:

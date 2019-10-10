@@ -6,21 +6,6 @@
 print("==== Initializing beds.zs ====");
 
 # Add Ore Dictionary entries for use in the recipes below:
-<ore:bed>.add(<minecraft:bed:1>);
-<ore:bed>.add(<minecraft:bed:2>);
-<ore:bed>.add(<minecraft:bed:3>);
-<ore:bed>.add(<minecraft:bed:4>);
-<ore:bed>.add(<minecraft:bed:5>);
-<ore:bed>.add(<minecraft:bed:6>);
-<ore:bed>.add(<minecraft:bed:7>);
-<ore:bed>.add(<minecraft:bed:8>);
-<ore:bed>.add(<minecraft:bed:9>);
-<ore:bed>.add(<minecraft:bed:10>);
-<ore:bed>.add(<minecraft:bed:11>);
-<ore:bed>.add(<minecraft:bed:12>);
-<ore:bed>.add(<minecraft:bed:13>);
-<ore:bed>.add(<minecraft:bed:14>);
-<ore:bed>.add(<minecraft:bed:15>);
 <ore:sleepingBag>.add(<comforts:sleeping_bag:0>);
 <ore:sleepingBag>.add(<comforts:sleeping_bag:1>);
 <ore:sleepingBag>.add(<comforts:sleeping_bag:2>);

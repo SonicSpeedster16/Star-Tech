@@ -203,10 +203,10 @@ mods.mekanism.crusher.addRecipe(<harvestcraft:oatsitem>, <harvestcraft:flouritem
 The Mighty Pam
 ~~~~~~~~~~~~~*/
 
-# Readd missing Salt recipe using Mek's Salt instead
+# Readd missing Salt recipe using Mek's Salt instead (and double it)
 recipes.addShaped("Craftable Salt",
-<mekanism:salt>, [
-  [<ore:toolPot>, <ore:listAllWater>, null]
+<mekanism:salt> * 2, [
+  [<ore:toolPot>, <ore:listAllwater>, null]
 ]);
 
 # Add missing recipe for Berry Vinaigrette Salad

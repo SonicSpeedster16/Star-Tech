@@ -6,7 +6,7 @@
       "generator": {
         "block": [
           {"name": "appliedenergistics2:quartz_ore", "metadata": 0, "weight": 95},
-          {"name": "appliedenergistics2:charged_quartz_ore", "metadata": 0, "weight": 5}
+          {"name": "appliedenergistics2:charged_quartz_ore", "metadata": 0, "weight": 2}
         ],
         "material": "minecraft:stone",
         "cluster-size": 4

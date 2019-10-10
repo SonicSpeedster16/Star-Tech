@@ -58,7 +58,7 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:1>, 2
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:2>, 2500000); /* Purple Diamond */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:3>, 2500000); /* Yellow Diamond */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:4>, 2500000); /* Green Diamond */
-# Emeralds should produce more power than diamonds
+// Emeralds should produce more power than diamonds
 mods.thermalexpansion.NumisticDynamo.removeGemFuel(<minecraft:emerald>);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<minecraft:emerald>, 1500000);
 
@@ -106,22 +106,22 @@ mods.mekanism.enrichment.addRecipe(<minecraft:magma>, <minecraft:magma_cream> * 
 
 # Add processing recipes for various rods
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 3);
-# Blizz
+// Blizz
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, <thermalfoundation:material:771>, 50);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>);
 mods.appliedenergistics2.Grinder.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, 4);
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:2048>, <thermalfoundation:material:2049> * 4);
-# Blitz
+// Blitz
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:2051> * 4, <thermalfoundation:material:2050>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:2051> * 4, <thermalfoundation:material:2050>);
 mods.appliedenergistics2.Grinder.addRecipe(<thermalfoundation:material:2051> * 4, <thermalfoundation:material:2050>, 4);
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:2050>, <thermalfoundation:material:2051> * 4);
-# Basalz
+// Basalz
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:2053> * 4, <thermalfoundation:material:2052>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:2053> * 4, <thermalfoundation:material:2052>);
 mods.appliedenergistics2.Grinder.addRecipe(<thermalfoundation:material:2053> * 4, <thermalfoundation:material:2052>, 4);
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:2052>, <thermalfoundation:material:2053> * 4);
-# Frost
+// Frost
 mods.thermalexpansion.Pulverizer.addRecipe(<netherex:frost_powder> * 4, <netherex:frost_rod>, 4000);
 mods.actuallyadditions.Crusher.addRecipe(<netherex:frost_powder> * 4, <netherex:frost_rod>);
 mods.extrautils2.Crusher.add(<netherex:frost_powder> * 4, <netherex:frost_rod>);
@@ -154,7 +154,7 @@ mods.mekanism.purification.addRecipe(<moreplanets:infected_tin_ore>, <gas:oxygen
 mods.mekanism.purification.addRecipe(<moreplanets:diona_tin_ore>, <gas:oxygen>, <mekanism:clump:4>*3); /* Tin */
 mods.mekanism.purification.addRecipe(<moreplanets:infected_gold_ore>, <gas:oxygen>, <mekanism:clump:1>*3); /* Gold */
 mods.mekanism.purification.addRecipe(<galacticraftplanets:venus:8>, <gas:oxygen>, <mekanism:clump:6>*3); /* Galena */
-# Same goes for the Chemical Injection Chamber
+// Same goes for the Chemical Injection Chamber
 mods.mekanism.chemical.injection.addRecipe(<galacticraftplanets:mars:3>, <gas:hydrogenchloride>, <mekanism:shard>*4); /* Iron */
 mods.mekanism.chemical.injection.addRecipe(<galacticraftplanets:asteroids_block:5>, <gas:hydrogenchloride>, <mekanism:shard>*4); /* Iron */
 mods.mekanism.chemical.injection.addRecipe(<moreplanets:chalos_iron_ore>, <gas:hydrogenchloride>, <mekanism:shard>*4); /* Iron */

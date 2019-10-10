@@ -158,5 +158,11 @@ print("==== Initializing OreDict.zs ====");
 <ore:listAllbeefraw>.remove(<harvestcraft:groundbeefitem>);
 <ore:listAllmeatraw>.remove(<harvestcraft:groundbeefitem>);
 <ore:foodGroundbeef>.remove(<harvestcraft:groundbeefitem>);
+# Remove OreDict entries from Pam's Salt and extraneous entries from Mekanism Salt
+<ore:dustSalt>.remove(<harvestcraft:saltitem>);
+<ore:itemSalt>.remove(<harvestcraft:saltitem>);
+<ore:foodSalt>.remove(<harvestcraft:saltitem>);
+<ore:itemSalt>.remove(<mekanism:salt>);
+<ore:foodSalt>.remove(<mekanism:salt>);
 
 print("=== Initialized OreDict.zs ====");

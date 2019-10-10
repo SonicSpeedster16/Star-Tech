@@ -79,6 +79,11 @@ recipes.removeByRecipeName("inventorypets:nugget_diamond_alt");
 recipes.removeByRecipeName("inventorypets:nugget_obsidian_alt");
 recipes.removeByRecipeName("inventorypets:nugget_lapis_alt");
 recipes.removeByRecipeName("inventorypets:nugget_ender_alt");
+recipes.removeByRecipeName("enderio:capacitor_crystalline_alt");
+recipes.removeByRecipeName("extrautils2:shortcut_stick");
+recipes.removeByRecipeName("enderio:tweak_wood_hopper");
+recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+// Chests
 recipes.removeByRecipeName("extrautils2:shortcut_chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
 recipes.removeByRecipeName("extraplanets:chest");
@@ -87,9 +92,32 @@ recipes.removeByRecipeName("extraplanets:chest_alt_alt");
 recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt");
 recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt_alt");
 recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt_alt_alt");
-recipes.removeByRecipeName("extrautils2:shortcut_stick");
-recipes.removeByRecipeName("enderio:tweak_wood_hopper");
-recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+// Paper
+recipes.removeByRecipeName("mekanism:paper");
+recipes.removeByRecipeName("moreplanets:bread_from_infected_sugar_cane");
+recipes.removeByRecipeName("actuallyadditions:recipes23");
+// Extra Block to Ingot recipes
+recipes.removeByRecipeName("chisel:uncraft_blockiron");
+recipes.removeByRecipeName("unidict:ingotiron_x1_shape.aaaaaaaaa");
+recipes.removeByRecipeName("chisel:uncraft_blockgold");
+recipes.removeByRecipeName("chisel:uncraft_blockcopper");
+recipes.removeByRecipeName("thermalfoundation:material_41");
+recipes.removeByRecipeName("chisel:uncraft_blocktin");
+recipes.removeByRecipeName("thermalfoundation:material_42");
+recipes.removeByRecipeName("chisel:uncraft_blocksilver");
+recipes.removeByRecipeName("chisel:uncraft_blocklead");
+recipes.removeByRecipeName("thermalfoundation:material_44");
+recipes.removeByRecipeName("chisel:uncraft_blockaluminum");
+recipes.removeByRecipeName("thermalfoundation:material_45");
+recipes.removeByRecipeName("chisel:uncraft_blocknickel");
+recipes.removeByRecipeName("chisel:uncraft_blockplatinum");
+recipes.removeByRecipeName("chisel:uncraft_blocksteel");
+recipes.removeByRecipeName("thermalfoundation:material_50");
+recipes.removeByRecipeName("chisel:uncraft_blockelectrum");
+recipes.removeByRecipeName("chisel:uncraft_blockinvar");
+recipes.removeByRecipeName("chisel:uncraft_blockbronze");
+recipes.removeByRecipeName("thermalfoundation:material_53");
+recipes.removeByRecipeName("chisel:uncraft_blockcobalt");
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Modify recipes to resolve conflicts
@@ -216,11 +244,30 @@ recipes.addShaped("Beetroot to Beetroot Seeds",
 mods.tconstruct.Melting.addRecipe(<liquid:alubrass> * 144, <tconstruct:cast>);
 
 # Bone Blocks should be grindable back into Bonemeal
+recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>);
 mods.extrautils2.Crusher.add(<minecraft:dye:15> * 9, <minecraft:bone_block>);
 mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 2000);
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 5);
 mods.mekanism.crusher.addRecipe(<minecraft:bone_block>, <minecraft:dye:15> * 9);
+
+# More efficient way to get Quartz Enriched Iron
+mods.thermalexpansion.InductionSmelter.addRecipe(<refinedstorage:quartz_enriched_iron>, <minecraft:quartz>, <minecraft:iron_ingot>, 4800);
+
+# Ender IO capacitors should be upgradable with Endergy capacitors
+recipes.addShaped("Double-Layer Capacitor_endergy",
+<enderio:item_basic_capacitor:1>, [
+  [null, <ore:ingotEnergeticAlloy>, null],
+  [<enderio:item_capacitor_silver>, <ore:dustCoal>, <enderio:item_capacitor_silver>],
+  [null, <ore:ingotEnergeticAlloy>, null]
+]);
+recipes.addShaped("Octadic Capacitor_endergy",
+<enderio:item_basic_capacitor:2>, [
+  [null, <ore:ingotVibrantAlloy>, null],
+  [<enderio:item_capacitor_energetic_silver>, <ore:glowstone>, <enderio:item_capacitor_energetic_silver>],
+  [null, <ore:ingotVibrantAlloy>, null]
+]);
+
 
 /*~~~~~~~~~~~
 Vanilla items

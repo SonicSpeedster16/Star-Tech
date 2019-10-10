@@ -65,9 +65,13 @@ JEI.removeAndHide(<actuallyadditions:item_food:10>); /* Removed in favor of Pam'
 JEI.removeAndHide(<actuallyadditions:item_food:13>); /* Removed in favor of Pam's Burgers */
 JEI.removeAndHide(<galacticraftcore:food:8>); /* Removed in favor of Pam's Burgers */
 JEI.removeAndHide(<actuallyadditions:item_food:14>); /* Removed in favor of Pam's Pizza */
+JEI.removeAndHide(<enderio:item_material:21>); /* Removed in favor of Pam's flour */
+JEI.removeAndHide(<appliedenergistics2:material:4>); /* Removed in favor of Pam's flour */
+JEI.removeAndHide(<harvestcraft:saltitem>); /* Removed in favor of Mekanism Salt */
+JEI.removeAndHide(<actuallyadditions:item_food:20>); /* Removed in favor of Tinkers Bacon Jerky */
 JEI.removeAndHide(<actuallyadditions:item_food:15>); /* Baguette */
 JEI.removeAndHide(<actuallyadditions:item_food:18>); /* Doughnut */
-JEI.removeAndHide(<actuallyadditions:item_food:20>); /* Removed in favor of Tinkers Bacon Jerky */
+
 
 # Remove items that are exploitable or are known to cause crashes
 JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Exploitable */
@@ -100,6 +104,7 @@ JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_mv>);
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_ev>);
 JEI.removeAndHide(<logisticspipes:power_provider_eu>);
 JEI.removeAndHide(<logisticspipes:power_provider_mj>);
+// Colored sticks
 JEI.removeAndHide(<extraplanets:tier11_items:7>);
 JEI.removeAndHide(<extraplanets:tier11_items:8>);
 JEI.removeAndHide(<extraplanets:tier11_items:9>);

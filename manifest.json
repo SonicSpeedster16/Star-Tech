@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Star Tech",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "author": "SonicSpeedster16",
   "projectID": 317921,
   "files": [
@@ -132,7 +132,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 2758684,
+      "fileID": 2803161,
       "required": true
     },
     {
@@ -327,27 +327,27 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2783045,
+      "fileID": 2803777,
       "required": true
     },
     {
       "projectID": 237102,
-      "fileID": 2790146,
+      "fileID": 2802305,
       "required": true
     },
     {
       "projectID": 248020,
-      "fileID": 2792153,
+      "fileID": 2802126,
       "required": true
     },
     {
       "projectID": 278494,
-      "fileID": 2695388,
+      "fileID": 2803520,
       "required": true
     },
     {
       "projectID": 59751,
-      "fileID": 2755279,
+      "fileID": 2803336,
       "required": true
     },
     {
@@ -387,7 +387,7 @@
     },
     {
       "projectID": 264231,
-      "fileID": 2800760,
+      "fileID": 2803425,
       "required": true
     },
     {
@@ -398,6 +398,11 @@
     {
       "projectID": 266515,
       "fileID": 2745321,
+      "required": true
+    },
+    {
+      "projectID": 277938,
+      "fileID": 2676458,
       "required": true
     },
     {
@@ -427,7 +432,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2765112,
+      "fileID": 2803400,
       "required": true
     },
     {
@@ -442,7 +447,7 @@
     },
     {
       "projectID": 298965,
-      "fileID": 2763558,
+      "fileID": 2803288,
       "required": true
     },
     {
@@ -467,7 +472,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 2787642,
+      "fileID": 2803740,
       "required": true
     },
     {
@@ -632,12 +637,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 2801482,
-      "required": true
-    },
-    {
-      "projectID": 247496,
-      "fileID": 2441326,
+      "fileID": 2803621,
       "required": true
     },
     {
