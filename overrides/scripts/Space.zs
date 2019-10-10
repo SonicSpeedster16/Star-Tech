@@ -12,14 +12,6 @@ mods.GalacticraftTweaker.addDungeonLoot(2, <galacticraftcore:dungeonfinder>);
 recipes.remove(<extraplanets:anti_radiation>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:coal:1>], <extraplanets:anti_radiation:0>);
 
-# Fix the Basic Chemical Injector recipe
-recipes.remove(<extraplanets:basic_chemical_injector>);
-recipes.addShaped(<extraplanets:basic_chemical_injector>, [
-  [<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>],
-  [<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
-  [<ore:ingotPalladium>, <ore:ingotPalladium>, <ore:ingotPalladium>]
-]);
-
 # Change the Advanced Fuel Loader recipe to use compressed nickel
 recipes.remove(<extraplanets:advanced_fuel_loader>);
 recipes.addShaped(<extraplanets:advanced_fuel_loader>, [

@@ -5,31 +5,25 @@
 
 print("==== Initializing unification.zs ====");
 
-# Sapphire conversion
-recipes.addShapeless(<biomesoplenty:gem:6>, [<iceandfire:sapphire_gem>]);
-recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
-
-# Casting Tinkers Cobalt blocks shouldn't produce Chisel blocks
-mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
-mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
-
 # Unify outputs of Silicon Ore processing
+mods.actuallyadditions.Crusher.removeRecipe(<galacticraftcore:basic_item:2>);
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftplanets:venus:10>, 1.0);
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftcore:basic_block_core:8>, 1.0);
-mods.actuallyadditions.Crusher.removeRecipe(<galacticraftcore:basic_item:2>);
 
 # Unify machine outputs of Black Quartz processing
 recipes.removeShapeless(<actuallyadditions:item_misc:5>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 2, <actuallyadditions:block_misc:3>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 1, <actuallyadditions:item_misc:5>);
 
-# Remove extra Blocks of Charcoal
-recipes.remove(<actuallyadditions:block_misc:5>);
-recipes.remove(<chisel:block_charcoal2>);
-recipes.remove(<forestry:charcoal>);
+# Standardize Frost Powder crafting recipe
+recipes.removeShapeless(<netherex:frost_powder>);
+recipes.addShapeless(<netherex:frost_powder> * 2, [<netherex:frost_rod>]);
 
 # Remove duplicate Nether Quartz Ore + Petrotheum Dust recipe
 recipes.removeByRecipeName("thermalfoundation:quartz");
+
+# Remove Sapphire Ore + Petrotheum Dust recipe
+recipes.removeByRecipeName("thermalfoundation:gem_6");
 
 # Replace Forestry Bronze with Thermal Bronze
 recipes.remove(<forestry:ingot_bronze>);
@@ -40,6 +34,23 @@ mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 1, [[<fores
 # Remove UniDict's Gear and Plate Unification to prevent conflicts
 mods.unidict.removalByKind.get("Crafting").remove("gear");
 mods.unidict.removalByKind.get("Crafting").remove("plate");
+
+/*~~~~~~~~~~~~~~~
+Tinkers' Contruct
+~~~~~~~~~~~~~~~~*/
+# Casting Tinkers Cobalt blocks shouldn't produce Chisel Cobalt Blocks
+mods.tconstruct.Casting.removeBasinRecipe(<chisel:blockcobalt>, <liquid:cobalt>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:metal>, null, <liquid:cobalt>, 1296);
+
+# Add missing recipes for creating Gear Casts with Aluminum Brass
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:alubrass>, 144, true, 40); /* Stone Gear */
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <enderio:item_material:10>, <liquid:alubrass>, 144, true, 40); /* Stone Compound Gear */
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pneumaticcraft:compressed_iron_gear>, <liquid:alubrass>, 144, true, 40); /* Compressed Iron Gear */
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <pneumaticcraft:compressed_iron_gear>, <liquid:gold>, 288, true, 60); /* Compressed Iron Gear */
+
+# Tritanium plates should also be usable for creating Plate Casts
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <matteroverdrive:tritanium_plate>, <liquid:alubrass>, 144, true, 40);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <matteroverdrive:tritanium_plate>, <liquid:gold>, 288, true, 60);
 
 /*~~~~~~~~~~~~~~~~~~~~~
 Standardize Rod recipes

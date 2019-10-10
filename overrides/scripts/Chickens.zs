@@ -1,6 +1,6 @@
 #Name: Chickens.zs
 #Author: SonicSpeedster16
-#Description: Add/modify recipes for tier 1 chickens and colored eggs
+#Description: Add recipes for tier 1 chickens and modify colored egg recipes
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
 print("==== Initializing Chickens.zs ====");
@@ -24,9 +24,9 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
     id: "chickens:sandchicken"
   }
 }), [
-  [<ore:sand>, <ore:sand>, <ore:sand>],
-  [<ore:sand>, <minecraft:egg>, <ore:sand>],
-  [<ore:sand>, <ore:sand>, <ore:sand>]
+  [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+  [<minecraft:sand>, <minecraft:egg>, <minecraft:sand>],
+  [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
 ]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
@@ -34,9 +34,9 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
     id: "chickens:logchicken"
   }
 }), [
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
-  [<ore:logWood>, <minecraft:egg>, <ore:logWood>],
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+  [<minecraft:log>, <minecraft:log>, <minecraft:log>],
+  [<minecraft:log>, <minecraft:egg>, <minecraft:log>],
+  [<minecraft:log>, <minecraft:log>, <minecraft:log>]
 ]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
@@ -44,9 +44,9 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
     id: "chickens:soulsandchicken"
   }
 }), [
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>],
-  [<ore:soulSand>, <minecraft:egg>, <ore:soulSand>],
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]
+  [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>],
+  [<minecraft:soul_sand>, <minecraft:egg>, <minecraft:soul_sand>],
+  [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>]
 ]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
@@ -54,9 +54,9 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
     id: "chickens:quartzchicken"
   }
 }), [
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <minecraft:egg>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]
+  [<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>],
+  [<minecraft:quartz>, <minecraft:egg>, <minecraft:quartz>],
+  [<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>]
 ]);
 
 /*~~~~~~~~~~
@@ -64,97 +64,96 @@ Colored eggs
 ~~~~~~~~~~~*/
 
 recipes.remove(<chickens:colored_egg>);
-recipes.remove(<chickens:colored_egg:1>);
-recipes.remove(<chickens:colored_egg:2>);
-recipes.remove(<chickens:colored_egg:3>);
-recipes.remove(<chickens:colored_egg:4>);
-recipes.remove(<chickens:colored_egg:5>);
-recipes.remove(<chickens:colored_egg:6>);
-recipes.remove(<chickens:colored_egg:7>);
-recipes.remove(<chickens:colored_egg:8>);
-recipes.remove(<chickens:colored_egg:9>);
-recipes.remove(<chickens:colored_egg:10>);
-recipes.remove(<chickens:colored_egg:11>);
-recipes.remove(<chickens:colored_egg:12>);
-recipes.remove(<chickens:colored_egg:13>);
-recipes.remove(<chickens:colored_egg:14>);
-recipes.remove(<chickens:colored_egg:15>);
-
 recipes.addShaped(<chickens:colored_egg>, [
   [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>],
   [<ore:dyeBlack>, <minecraft:egg>, <ore:dyeBlack>],
   [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]
 ]);
+recipes.remove(<chickens:colored_egg:1>);
 recipes.addShaped(<chickens:colored_egg:1>, [
   [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>],
   [<ore:dyeRed>, <minecraft:egg>, <ore:dyeRed>],
   [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>]
 ]);
+recipes.remove(<chickens:colored_egg:2>);
 recipes.addShaped(<chickens:colored_egg:2>, [
   [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>],
   [<ore:dyeGreen>, <minecraft:egg>, <ore:dyeGreen>],
   [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>]
 ]);
+recipes.remove(<chickens:colored_egg:3>);
 recipes.addShaped(<chickens:colored_egg:3>, [
   [<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>],
   [<ore:dyeBrown>, <minecraft:egg>, <ore:dyeBrown>],
   [<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>]
 ]);
+recipes.remove(<chickens:colored_egg:4>);
 recipes.addShaped(<chickens:colored_egg:4>, [
   [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
   [<ore:dyeBlue>, <minecraft:egg>, <ore:dyeBlue>],
   [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]
 ]);
+recipes.remove(<chickens:colored_egg:5>);
 recipes.addShaped(<chickens:colored_egg:5>, [
   [<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>],
   [<ore:dyePurple>, <minecraft:egg>, <ore:dyePurple>],
   [<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>]
 ]);
+recipes.remove(<chickens:colored_egg:6>);
 recipes.addShaped(<chickens:colored_egg:6>, [
   [<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>],
   [<ore:dyeCyan>, <minecraft:egg>, <ore:dyeCyan>],
   [<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>]
 ]);
+recipes.remove(<chickens:colored_egg:7>);
 recipes.addShaped(<chickens:colored_egg:7>, [
   [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>],
   [<ore:dyeLightGray>, <minecraft:egg>, <ore:dyeLightGray>],
   [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>]
 ]);
+recipes.remove(<chickens:colored_egg:8>);
 recipes.addShaped(<chickens:colored_egg:8>, [
   [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>],
   [<ore:dyeGray>, <minecraft:egg>, <ore:dyeGray>],
   [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>]
 ]);
+recipes.remove(<chickens:colored_egg:9>);
 recipes.addShaped(<chickens:colored_egg:9>, [
   [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>],
   [<ore:dyePink>, <minecraft:egg>, <ore:dyePink>],
   [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]
 ]);
+recipes.remove(<chickens:colored_egg:10>);
 recipes.addShaped(<chickens:colored_egg:10>, [
   [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>],
   [<ore:dyeLime>, <minecraft:egg>, <ore:dyeLime>],
   [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>]
 ]);
+recipes.remove(<chickens:colored_egg:11>);
 recipes.addShaped(<chickens:colored_egg:11>, [
   [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>],
   [<ore:dyeYellow>, <minecraft:egg>, <ore:dyeYellow>],
   [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]
 ]);
+recipes.remove(<chickens:colored_egg:12>);
 recipes.addShaped(<chickens:colored_egg:12>, [
   [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>],
   [<ore:dyeLightBlue>, <minecraft:egg>, <ore:dyeLightBlue>],
   [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]
 ]);
+recipes.remove(<chickens:colored_egg:13>);
 recipes.addShaped(<chickens:colored_egg:13>, [
   [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>],
   [<ore:dyeMagenta>, <minecraft:egg>, <ore:dyeMagenta>],
   [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>]
 ]);
+recipes.remove(<chickens:colored_egg:14>);
 recipes.addShaped(<chickens:colored_egg:14>, [
   [<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>],
   [<ore:dyeOrange>, <minecraft:egg>, <ore:dyeOrange>],
   [<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>]
 ]);
+recipes.remove(<chickens:colored_egg:15>);
 recipes.addShaped(<chickens:colored_egg:15>, [
   [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>],
   [<ore:dyeWhite>, <minecraft:egg>, <ore:dyeWhite>],

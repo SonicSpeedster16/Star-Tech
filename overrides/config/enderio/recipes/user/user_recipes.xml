@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 
+  <recipe name="MagmaCream">
+    <sagmilling bonus="none" energy="4000">
+      <input name="magma"/>
+      <output name="MAGMA_CREAM" amount="4" />
+    </sagmilling>
+  </recipe>
+
 </enderio:recipes>

@@ -96,11 +96,6 @@
       "id": "OD:oreAluminum"
     },
     {
-      "target": "green",
-      "weight": 140,
-      "id": "OD:oreUranium"
-    },
-    {
       "target": "yellow",
       "weight": 156,
       "id": "OD:oreYellorite"
@@ -248,7 +243,7 @@
     {
       "target": "white",
       "weight": 127,
-      "id": "rftools:dimensional_shard_ore"
+      "id": "rftools:dimensional_shard_ore:0"
     },
     {
       "target": "green",
@@ -492,12 +487,12 @@
     },
     {
       "target": "green",
-      "weight": 188,
+      "weight": 168,
       "id": "OD:oreTritanium"
     },
     {
       "target": "cyan",
-      "weight": 127,
+      "weight": 107,
       "id": "OD:oreDilithium"
     }
   ]

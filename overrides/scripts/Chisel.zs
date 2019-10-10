@@ -8,6 +8,12 @@ import mods.chisel.Carving.addVariation;
 print("==== Initializing Chisel.zs ====");
 
 # Marble
+addVariation("marble", <extraplanets:decorative_blocks:0>);
+addVariation("marblebricks", <extraplanets:decorative_blocks:1>);
+addVariation("marbletiled", <extraplanets:decorative_blocks:6>);
+addVariation("marbletiled", <extraplanets:decorative_blocks:7>);
+
+# Sooty Marble
 addVariation("sootymarble", <astralsorcery:blockblackmarble:0>);
 addVariation("sootymarble", <astralsorcery:blockblackmarble:1>);
 addVariation("sootymarble", <astralsorcery:blockblackmarble:2>);
@@ -17,22 +23,22 @@ addVariation("sootymarble", <astralsorcery:blockblackmarble:5>);
 addVariation("sootymarble", <astralsorcery:blockblackmarble:6>);
 
 # Basalt
-mods.chisel.Carving.addVariation("basalt", <nex:basalt:0>);
-mods.chisel.Carving.addVariation("basalt", <nex:basalt:1>);
-mods.chisel.Carving.addVariation("basalt", <nex:basalt:2>);
-mods.chisel.Carving.addVariation("basalt", <nex:basalt:3>);
+addVariation("basalt", <netherex:basalt>);
+addVariation("basalt", <netherex:smooth_basalt>);
+addVariation("basalt", <netherex:basalt_brick>);
+addVariation("basalt", <netherex:basalt_pillar>);
 
 # Netherrack
-mods.chisel.Carving.addVariation("netherrack", <nex:netherrack:0>);
-mods.chisel.Carving.addVariation("netherrack", <nex:netherrack:1>);
-mods.chisel.Carving.addVariation("netherrack", <nex:netherrack:2>);
-mods.chisel.Carving.addVariation("netherrack", <nex:netherrack:3>);
+addVariation("netherrack", <netherex:gloomy_netherrack>);
+addVariation("netherrack", <netherex:lively_netherrack>);
+addVariation("netherrack", <netherex:fiery_netherrack>);
+addVariation("netherrack", <netherex:icy_netherrack>);
 
-# Nether Bricks
-mods.chisel.Carving.addVariation("netherbrick", <nex:nether_brick:0>);
-mods.chisel.Carving.addVariation("netherbrick", <nex:nether_brick:1>);
-mods.chisel.Carving.addVariation("netherbrick", <nex:nether_brick:2>);
-mods.chisel.Carving.addVariation("netherbrick", <nex:nether_brick:3>);
+# Nether Brick
+addVariation("netherbrick", <netherex:gloomy_nether_brick>);
+addVariation("netherbrick", <netherex:lively_nether_brick>);
+addVariation("netherbrick", <netherex:fiery_nether_brick>);
+addVariation("netherbrick", <netherex:icy_nether_brick>);
 
 # Twilight Forest
 addVariation("castlebrickrune", <twilightforest:castle_rune_brick:0>);
@@ -44,4 +50,4 @@ addVariation("castlebrickdoor", <twilightforest:castle_door:1>);
 addVariation("castlebrickdoor", <twilightforest:castle_door:2>);
 addVariation("castlebrickdoor", <twilightforest:castle_door:3>);
 
-print("==== Initialized compat.zs ====");
+print("==== Initialized Chisel.zs ====");

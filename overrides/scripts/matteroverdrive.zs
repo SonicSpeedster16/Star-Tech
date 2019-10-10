@@ -6,15 +6,18 @@
 print("==== Initializing matteroverdrive.zs ====");
 
 # Industrial Glass
-recipes.addShaped(<matteroverdrive:industrial_glass>, [
-  [<matteroverdrive:tritanium_ingot>, <minecraft:glass>, <matteroverdrive:tritanium_ingot>],
+recipes.addShaped(<matteroverdrive:industrial_glass> * 3, [
+  [<matteroverdrive:tritanium_plate>, null, <matteroverdrive:tritanium_plate>],
+  [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+  [<matteroverdrive:tritanium_plate>, null, <matteroverdrive:tritanium_plate>]
 ]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<matteroverdrive:industrial_glass>, <minecraft:glass>, <matteroverdrive:tritanium_ingot>, 8000);
 
 # Microwave
 recipes.addShaped(<matteroverdrive:microwave>, [
-  [null, <matteroverdrive:tritanium_plate>, null],
-  [<matteroverdrive:tritanium_plate>, <minecraft:glass>, <matteroverdrive:tritanium_plate>],
-  [null, <matteroverdrive:tritanium_plate>, null]
+  [null, null, null],
+  [<matteroverdrive:tritanium_plate>, <minecraft:glass_pane>, <matteroverdrive:tritanium_plate>],
+  [null, null, null]
 ]);
 
 /*~~~~~~~~~~~~~~~

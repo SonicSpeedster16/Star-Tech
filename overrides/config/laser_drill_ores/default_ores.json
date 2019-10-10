@@ -186,26 +186,6 @@
 		]
 	},
 	{
-		"item": "oreUranium",
-		"color": 5,
-		"rarity": [
-			{
-				"whitelist": "minecraft:swamp, minecraft:swamp_hills",
-				"blacklist": "",
-				"depth_min": 5,
-				"depth_max": 29,
-				"weight": 5
-			},
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 0,
-				"depth_max": 255,
-				"weight": 1
-			}
-		]
-	},
-	{
 		"item": "oreSulfur",
 		"color": 4,
 		"rarity": [
@@ -225,7 +205,6 @@
 			}
 		]
 	},
-	{
 	{
 		"item": "oreIridium",
 		"color": 0,
@@ -534,19 +513,6 @@
 				"depth_min": 5,
 				"depth_max": 68,
 				"weight": 1
-			}
-		]
-	},
-	{
-		"item": "oreYellorium",
-		"color": 4,
-		"rarity": [
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 16,
-				"depth_max": 68,
-				"weight": 3
 			}
 		]
 	},

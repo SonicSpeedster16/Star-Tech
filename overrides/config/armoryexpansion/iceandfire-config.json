@@ -27,32 +27,6 @@
   },
   {
     "toolOptions": {
-      "enableTool": true,
-      "enableHead": true,
-      "enableHandle": true,
-      "enableExtra": true
-    },
-    "rangedOptions": {
-      "enableRanged": false,
-      "enableBow": false,
-      "enableBowString": false,
-      "enableShaft": false,
-      "enableFletching": false,
-      "enableProjectile": false
-    },
-    "name": "chitindesertmyrmex",
-    "material": true,
-    "fluid": false,
-    "traits": true,
-    "armorOptions": {
-      "enableArmor": true,
-      "enableCore": true,
-      "enablePlates": true,
-      "enableTrim": true
-    }
-  },
-  {
-    "toolOptions": {
       "enableTool": false,
       "enableHead": false,
       "enableHandle": false,
@@ -67,32 +41,6 @@
       "enableProjectile": false
     },
     "name": "chitintandeathworm",
-    "material": true,
-    "fluid": false,
-    "traits": true,
-    "armorOptions": {
-      "enableArmor": true,
-      "enableCore": true,
-      "enablePlates": true,
-      "enableTrim": true
-    }
-  },
-  {
-    "toolOptions": {
-      "enableTool": true,
-      "enableHead": true,
-      "enableHandle": true,
-      "enableExtra": true
-    },
-    "rangedOptions": {
-      "enableRanged": false,
-      "enableBow": false,
-      "enableBowString": false,
-      "enableShaft": false,
-      "enableFletching": false,
-      "enableProjectile": false
-    },
-    "name": "chitinjunglemyrmex",
     "material": true,
     "fluid": false,
     "traits": true,
@@ -387,32 +335,6 @@
       "enableCore": true,
       "enablePlates": true,
       "enableTrim": true
-    }
-  },
-  {
-    "toolOptions": {
-      "enableTool": true,
-      "enableHead": true,
-      "enableHandle": true,
-      "enableExtra": true
-    },
-    "rangedOptions": {
-      "enableRanged": false,
-      "enableBow": false,
-      "enableBowString": false,
-      "enableShaft": false,
-      "enableFletching": false,
-      "enableProjectile": false
-    },
-    "name": "bonedragon",
-    "material": true,
-    "fluid": false,
-    "traits": true,
-    "armorOptions": {
-      "enableArmor": false,
-      "enableCore": false,
-      "enablePlates": false,
-      "enableTrim": false
     }
   },
   {
