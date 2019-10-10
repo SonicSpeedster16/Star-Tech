@@ -44,6 +44,7 @@ for fruit in <ore:listAllfruit>.items {
 # Add more gems that can be used in the Numistic Dynamo
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<netherex:amethyst_crystal>, 200000); /* Nether Amethyst */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<actuallyadditions:item_misc:5>, 40000); /* Black Quartz */
+mods.thermalexpansion.NumisticDynamo.addGemFuel(<matteroverdrive:dilithium_crystal>, 50000); /* Dilithium */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<astralsorcery:itemcraftingcomponent:0>, 60000); /* Aquamarine */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<moreplanets:setrorium_shard>, 60000); /* Setrorium Shard */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier5_items:8>, 1750000); /* Red Gem */
@@ -63,6 +64,10 @@ furnace.addRecipe(<appliedenergistics2:material:0>, <appliedenergistics2:quartz_
 furnace.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:charged_quartz_ore>, 1.0);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:1>);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>);
+
+# Add Fluix Crystal Support for Actually Additions and Extra Utilities 2 Crusher
+mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
+mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 
 # Add processing recipes for Dimensional Shard Ore
 furnace.addRecipe(<rftools:dimensional_shard>, <rftools:dimensional_shard_ore:0>, 0.7);
@@ -99,7 +104,7 @@ mods.mekanism.enrichment.addRecipe(<minecraft:magma>, <minecraft:magma_cream> * 
 # Add processing recipes for various rods
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 3);
 # Blizz
-mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, <thermalfoundation:material:771>, 50);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>);
 mods.appliedenergistics2.Grinder.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, 4);
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:material:2048>, <thermalfoundation:material:2049> * 4);

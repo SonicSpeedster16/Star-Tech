@@ -5,6 +5,55 @@
 
 print("==== Initializing beds.zs ====");
 
+# Add Ore Dictionary entries for use in the recipes below:
+<ore:bed>.add(<minecraft:bed:1>);
+<ore:bed>.add(<minecraft:bed:2>);
+<ore:bed>.add(<minecraft:bed:3>);
+<ore:bed>.add(<minecraft:bed:4>);
+<ore:bed>.add(<minecraft:bed:5>);
+<ore:bed>.add(<minecraft:bed:6>);
+<ore:bed>.add(<minecraft:bed:7>);
+<ore:bed>.add(<minecraft:bed:8>);
+<ore:bed>.add(<minecraft:bed:9>);
+<ore:bed>.add(<minecraft:bed:10>);
+<ore:bed>.add(<minecraft:bed:11>);
+<ore:bed>.add(<minecraft:bed:12>);
+<ore:bed>.add(<minecraft:bed:13>);
+<ore:bed>.add(<minecraft:bed:14>);
+<ore:bed>.add(<minecraft:bed:15>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:0>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:1>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:2>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:3>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:4>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:5>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:6>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:7>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:8>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:9>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:10>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:11>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:12>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:13>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:14>);
+<ore:sleepingBag>.add(<comforts:sleeping_bag:15>);
+<ore:hammock>.add(<comforts:hammock:0>);
+<ore:hammock>.add(<comforts:hammock:1>);
+<ore:hammock>.add(<comforts:hammock:2>);
+<ore:hammock>.add(<comforts:hammock:3>);
+<ore:hammock>.add(<comforts:hammock:4>);
+<ore:hammock>.add(<comforts:hammock:5>);
+<ore:hammock>.add(<comforts:hammock:6>);
+<ore:hammock>.add(<comforts:hammock:7>);
+<ore:hammock>.add(<comforts:hammock:8>);
+<ore:hammock>.add(<comforts:hammock:9>);
+<ore:hammock>.add(<comforts:hammock:10>);
+<ore:hammock>.add(<comforts:hammock:11>);
+<ore:hammock>.add(<comforts:hammock:12>);
+<ore:hammock>.add(<comforts:hammock:13>);
+<ore:hammock>.add(<comforts:hammock:14>);
+<ore:hammock>.add(<comforts:hammock:15>);
+
 /*~~
 Beds
 ~~*/

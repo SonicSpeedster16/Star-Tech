@@ -1,4 +1,58 @@
-Star Tech 2.0.1  (09-15-2019)
+Star Tech 2.1.0  (09-21-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Updated FORGE to 14.23.5.2847
+-Lowered the total number of chunks allowed to be chunkloaded (per player limit).
+-Chunk Loaders will now turn off if the player hasn't logged in for 5 days.
+-Disabled an exploitable mod easter egg.
+-Increased stack size of Eggs, Glowballs and Ender Pearls to 64.
+-Dilithium Crystals can now be used in a Numistic Dynamo to generate power.
+-Blacklisted more blocks from being picked up by the Cardboard Box.
+-Tinker's Tools can no longer be repaired in the Actually Additions Item Repairer.
+-Tamed cats do not drop furballs as often as before.
+-Prevented the Spawner Changer from creating spawners for some mobs (such as dragons).
+-Prevented Ice and Fire mobs from being placed in Thermal Expansion Morbs or Industrial Foregoing Mob Duplicators.
+-Prevented Lens of The Miner from generating space ores.
+-Fluix Crystals can now be ground in more machines (such as the Actually Additions and Extra Utilities Crushers).
+-Improved compatibility for Forestry Backpacks (they now accept items from more mods).
+-Removed a custom recipe for clearing NBT from Flux Points/Plugs (a recipe is now provided by the mod itself).
+-Fixed several exploitable recipes (to prevent item duping).
+-Hid some more unusable items in JEI.
+
+MODS:
+Removed:
+-Planet Progression (was intended to have been removed in a previous version).
+-Sonar Core (Flux Networks no longer requires it)
+Added:
+-
+Updated:
+-Armory Expansion (1.3.4b > 1.4.0)
+-Botania (r1.10-361 > r1.10-362)
+-Dark Utilities (1.8.226 > 1.8.228)
+-FTB Library (5.4.3.134 > 5.4.3.138)
+-FTB Utilities (5.4.0.102 > 5.4.0.106)
+-Flux Networks (3.0.19 > 4.0.8)
+-GalacticraftCore (4.0.2.236 > 4.0.2.237)
+-GalacticraftPlanets (4.0.2.236 > 4.0.2.237)
+-Logistics Pipes (0.10.2.206 > 0.10.2.208)
+-MicDoodleCore (4.0.2.236 > 4.0.2.237)
+-NetherEx (2.0.13 > 2.0.15)
+-OpenBlocks Elevator (1.3.11 > 1.3.12)
+-PlusTiC (7.1.4.1 > 7.1.6.1)
+-Shadowfacts' Forgelin (1.8.3 > 1.8.4)
+-SteveKunG's Lib (1.1.4 > 1.1.5)
+-Worley's Caves (1.5.0 > 1.5.1)
+-Xaero's Minimap (1.17.9 > 1.18.1)
+-Xaero's World Map (1.4.9 > 1.4.10.1)
+
+
+SERVER:
+-Updated World Primer (0.6.0-dev.20190525.121747 > 0.6.0-dev.20190814.220944)
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/filesStar Tech 2.0.1  (09-15-2019)
 -------------------------------------
 COMMENTS:
 

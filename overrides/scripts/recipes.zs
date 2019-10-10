@@ -52,10 +52,15 @@ recipes.addShaped(<minecraft:leather_boots> * 1, [
   [<ore:leather>, null, <ore:leather>]
 ]);
 
+# Fix a dup bug involving Horse Armor
+mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:0> * 6);
+mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:1> * 6);
+mods.actuallyadditions.Crusher.removeRecipe(<mekanism:otherdust:0> * 6);
+
 # Chopping vegetables should not produce 3 slices of Pizza
 recipes.removeShapeless(<harvestcraft:pizzasliceitem>, [<harvestcraft:cuttingboarditem>, <ore:listAllgreenveggie>]);
 
-# Whay can Pam's Cotton be crafted to itself?
+# Why can Pam's Cotton be crafted to itself?
 recipes.remove(<harvestcraft:cottonitem>);
 
 # Remove fallback/alternate recipes that are not needed
@@ -65,6 +70,14 @@ recipes.removeByRecipeName("inventorypets:nugget_diamond_alt");
 recipes.removeByRecipeName("inventorypets:nugget_obsidian_alt");
 recipes.removeByRecipeName("inventorypets:nugget_lapis_alt");
 recipes.removeByRecipeName("inventorypets:nugget_ender_alt");
+recipes.removeByRecipeName("extrautils2:shortcut_chest");
+recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.removeByRecipeName("extraplanets:chest");
+recipes.removeByRecipeName("extraplanets:chest_alt");
+recipes.removeByRecipeName("extraplanets:chest_alt_alt");
+recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt");
+recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt_alt");
+recipes.removeByRecipeName("extraplanets:chest_alt_alt_alt_alt_alt");
 
 /*~~~~~~~~~~~
 Misc. recipes
@@ -105,10 +118,6 @@ recipes.addShaped(<logisticspipes:item_card> * 2, [
 # Add a way for clearing NBT from Logistics Pipes Modules
 recipes.addShapeless(<logisticspipes:module_crafter>, [<logisticspipes:module_crafter>]);
 recipes.addShapeless(<logisticspipes:module_active_supplier>, [<logisticspipes:module_active_supplier>]);
-
-# Add a way for clearing NBT from Flux Points and Plugs
-recipes.addShapeless(<fluxnetworks:fluxpoint>, [<fluxnetworks:fluxpoint>.anyDamage()]);
-recipes.addShapeless(<fluxnetworks:fluxplug>, [<fluxnetworks:fluxplug>.anyDamage()]);
 
 # Use the Atomic Reconstructor to convert modded dirts to Vanilla dirts
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<minecraft:dirt>, <biomesoplenty:dirt:0>, 60);  /* Loamy Dirt */
@@ -171,13 +180,6 @@ recipes.addShaped(<minecraft:bread> * 1, [
 recipes.addShaped(<minecraft:stick> * 16, [
   [<ore:logWood>],
   [<ore:logWood>]
-]);
-
-# Chest
-recipes.addShaped(<minecraft:chest> * 4, [
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
-  [<ore:logWood>, null, <ore:logWood>],
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>]
 ]);
 
 # Hopper

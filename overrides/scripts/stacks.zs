@@ -10,17 +10,20 @@ print("==== Initializing stacks.zs ====");
 # Cake
 <minecraft:cake>.maxStackSize = 16;
 
+# Eggs
+<minecraft:egg>.maxStackSize = 64;
+
 # Snowballs
 <minecraft:snowball>.maxStackSize = 64;
 
-# Glowballs
-<tconstruct:throwball:0>.maxStackSize = 64;
+# Ender Pearls
+<minecraft:ender_pearl>.maxStackSize = 64;
 
 # Dragon Bones
 <iceandfire:dragonbone>.maxStackSize = 64;
 
-# EFLNs
-<tconstruct:throwball:1>.maxStackSize = 16;
+# Glowballs
+<tconstruct:throwball:0>.maxStackSize = 64;
 
 # Terrestrial Artifacts
 <biomesoplenty:terrestrial_artifact>.maxStackSize = 16;

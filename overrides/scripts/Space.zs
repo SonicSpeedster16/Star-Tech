@@ -154,7 +154,7 @@ recipes.addShaped(<extraplanets:tier4_space_suit_gravity_boots>, [
   [null, <extraplanets:gravity_controller>, null]
 ]);
 
-# Add missing recipe for the new (BETA) Galacticraft Laser Turret
+# Add custom recipe for the new (BETA) Galacticraft Laser Turret
 recipes.addShaped(<galacticraftplanets:laser_turret>, [
   [null, <industrialforegoing:laser_lens_inverted:14>, null],
   [<ore:compressedSteel>, <extraplanets:nickel_battery>, <ore:compressedSteel>],
