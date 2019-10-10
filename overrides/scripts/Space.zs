@@ -10,7 +10,7 @@ mods.GalacticraftTweaker.addDungeonLoot(2, <galacticraftcore:dungeonfinder>);
 
 # Make Anti-Rads (a lot) less complicated to obtain
 recipes.remove(<extraplanets:anti_radiation>);
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:coal:1>], <extraplanets:anti_radiation:0>);
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <extrautils2:ingredients:4>, <extraplanets:anti_radiation>);
 
 # Change the Advanced Fuel Loader recipe to use compressed nickel
 recipes.remove(<extraplanets:advanced_fuel_loader>);
@@ -20,7 +20,15 @@ recipes.addShaped(<extraplanets:advanced_fuel_loader>, [
   [<ore:ingotPalladium>, <extraplanets:tier5_items:8>, <ore:ingotPalladium>]
 ]);
 
-# Fix the Tier 1 Battery recipe to use any lead ingot
+# Fix the Atomic Battery recipe to use OreDicted lead ingot
+recipes.remove(<galacticraftplanets:atomic_battery>);
+recipes.addShaped(<galacticraftplanets:atomic_battery>, [
+  [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
+  [<ore:ingotLead>, <galacticraftplanets:basic_item_venus:2>, <ore:ingotLead>],
+  [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]
+]);
+
+# Fix the Tier 1 Battery recipe to use OreDicted lead ingot
 recipes.remove(<extraplanets:electric_parts>);
 recipes.addShaped(<extraplanets:electric_parts>, [
   [<ore:ingotLead>, <galacticraftplanets:item_basic_mars:3>, <ore:ingotLead>],
@@ -34,14 +42,6 @@ recipes.addShaped(<extraplanets:electric_parts:1>, [
   [<ore:compressedDesh>, <extraplanets:electric_parts>, <ore:compressedDesh>],
   [<extraplanets:electric_parts>, <ore:compressedDesh>, <extraplanets:electric_parts>],
   [<ore:compressedDesh>, <extraplanets:electric_parts>, <ore:compressedDesh>]
-]);
-
-# Fix the Atomic Battery recipe to use any lead ingot
-recipes.remove(<galacticraftplanets:atomic_battery>);
-recipes.addShaped(<galacticraftplanets:atomic_battery>, [
-  [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
-  [<ore:ingotLead>, <galacticraftplanets:basic_item_venus:2>, <ore:ingotLead>],
-  [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]
 ]);
 
 # Modify the Powered Launch Pad recipe
@@ -152,6 +152,13 @@ recipes.addShaped(<extraplanets:tier4_space_suit_gravity_boots>, [
   [null, <extraplanets:gravity_controller>, null],
   [<extraplanets:gravity_controller>, <extraplanets:tier3_space_suit_gravity_boots>, <extraplanets:gravity_controller>],
   [null, <extraplanets:gravity_controller>, null]
+]);
+
+# Add missing recipe for the new (BETA) Galacticraft Laser Turret
+recipes.addShaped(<galacticraftplanets:laser_turret>, [
+  [null, <industrialforegoing:laser_lens_inverted:14>, null],
+  [<ore:compressedSteel>, <extraplanets:nickel_battery>, <ore:compressedSteel>],
+  [<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]
 ]);
 
 print("==== Initialized Space.zs ====");

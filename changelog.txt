@@ -1,6 +1,39 @@
+Star Tech 2.0.1  (09-15-2019)
+-------------------------------------
+COMMENTS:
+
+
+CHANGES:
+-Disabled transparent pipes and particle effects for Logistics Pipes in an attempt to help prevent lag.
+-Also added tooltip to Logistics Pipes Crafting Sign warning of potentially severe FPS lag if used.
+-Fully unified Sapphire, Silver and Ground Beef.
+-Fixed an issue where Mekanism machines would ouput the wrong type of silicon.
+-Any color bed, sleeping bag and hammock is now dyable (instead of only white).
+-Tweaked the recipe for Anti-Rads.
+-Improved compatability of the resonator (more modded items now work in it).
+-Added a recipe for the new (BETA) Laser Turret from Galacticraft.
+-Disabled Unstable Ingots (as they currently are not used in any recipes).
+
+MODS:
+Removed:
+-
+Added:
+-
+Updated:
+-
+
+
+SERVER:
+-
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
 Star Tech 2.0.0  (09-12-2019)
 -------------------------------------
 COMMENTS:
+Complete re-work of pack to provide a more cohesive and consistent experience.
 
 CHANGES:
 -Updated Forge to 14.23.5.2844.

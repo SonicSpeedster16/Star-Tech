@@ -58,9 +58,13 @@ recipes.removeShapeless(<harvestcraft:pizzasliceitem>, [<harvestcraft:cuttingboa
 # Whay can Pam's Cotton be crafted to itself?
 recipes.remove(<harvestcraft:cottonitem>);
 
-# Remove Tinkers' Fallback recipes for SlimeSlings & SimeBoots
+# Remove fallback/alternate recipes that are not needed
 recipes.removeByRecipeName("tconstruct:gadgets/slimesling_fallback");
 recipes.removeByRecipeName("tconstruct:gadgets/slime_boots_fallback");
+recipes.removeByRecipeName("inventorypets:nugget_diamond_alt");
+recipes.removeByRecipeName("inventorypets:nugget_obsidian_alt");
+recipes.removeByRecipeName("inventorypets:nugget_lapis_alt");
+recipes.removeByRecipeName("inventorypets:nugget_ender_alt");
 
 /*~~~~~~~~~~~
 Misc. recipes

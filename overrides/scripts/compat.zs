@@ -214,4 +214,43 @@ mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:35>, <enderio:
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:36>, <enderio:item_material:14>, 4); /* Grains of Piezallity */
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:37>, <enderio:item_material:16>, 4); /* Grains of the End */
 
+# Extra Utilities 2 Resonator should also be able to make Red Coal from Infected Coal/Charcoal
+mods.extrautils2.Resonator.add(<extrautils2:ingredients:4>, <moreplanets:infected_coal>, 1600);
+mods.extrautils2.Resonator.add(<extrautils2:ingredients:4>, <moreplanets:infected_charcoal>, 1600);
+
+# Add processing recipes for ground meats
+# Beef
+mods.actuallyadditions.Crusher.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>);
+mods.extrautils2.Crusher.add(<galacticraftcore:food:6> * 2, <minecraft:beef>);
+mods.thermalexpansion.Pulverizer.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>, 1000);
+mods.appliedenergistics2.Grinder.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>, 5);
+mods.mekanism.crusher.addRecipe(<minecraft:beef>, <galacticraftcore:food:6> * 2);
+# Chicken
+mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>);
+mods.extrautils2.Crusher.add(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>);
+mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>, 5);
+mods.mekanism.crusher.addRecipe(<minecraft:chicken>, <harvestcraft:groundchickenitem> * 2);
+# Mutton
+mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>);
+mods.extrautils2.Crusher.add(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>);
+mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 1000);
+mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 5);
+mods.mekanism.crusher.addRecipe(<minecraft:mutton>, <harvestcraft:groundmuttonitem> * 2);
+# Pork
+mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>);
+mods.extrautils2.Crusher.add(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>);
+mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>, 5);
+mods.mekanism.crusher.addRecipe(<minecraft:porkchop>, <harvestcraft:groundporkitem> * 2);
+# Rabbit
+mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>);
+mods.extrautils2.Crusher.add(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>);
+mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>, 5);
+mods.mekanism.crusher.addRecipe(<minecraft:rabbit>, <harvestcraft:groundrabbititem> * 2);
+# Venison
+mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>);
+mods.extrautils2.Crusher.add(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>);
+mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>, 1000);
+mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>, 5);
+mods.mekanism.crusher.addRecipe(<twilightforest:raw_venison>, <harvestcraft:groundvenisonitem> * 2);
+
 print("==== Initialized compat.zs ====");

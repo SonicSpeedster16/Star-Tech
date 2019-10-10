@@ -27,6 +27,7 @@ Custom Tooltips
 <lightningcraft:material:11>.addTooltip(format.aqua("Can be found in structures on the ceiling of the Underworld")); /* Ichor */
 
 # Warnings
+<logisticspipes:sign_creator>.addTooltip(format.red("WARNING: May cause severe FPS lag!"));
 <extrautils2:goldenlasso>.addTooltip(format.red("WARNING! Mobs may disappear when released! Recommend you use Animal Nets or Ender IO soul vials instead."));
 <moreplanets:ion_cannon_schematic>.addTooltip(format.red("NOTE: The ION Cannon is not yet implemented, making this schematic unusable."));
 
@@ -51,12 +52,18 @@ JEI.removeAndHide(<matteroverdrive:heavy_matter_pipe>); /* Broken - item doesn't
 
 # Remove other items that are not needed
 JEI.removeAndHide(<biomesoplenty:biome_finder>); /* Functionality provided by Nature's Compass */
+JEI.removeAndHide(<harvestcraft:groundbeefitem>); /* Removed in favor of Galacticraft's Ground Beef */
 
-# Remove extra Blocks of Charcoal
-JEI.removeAndHide(<actuallyadditions:block_misc:5>);
-JEI.removeAndHide(<chisel:block_charcoal2:1>);
-JEI.removeAndHide(<forestry:charcoal>);
-JEI.removeAndHide(<mekanism:basicblock:3>);
+# Remove duplicate items
+JEI.removeAndHide(<actuallyadditions:block_misc:5>); /* Block of Charcoal */
+JEI.removeAndHide(<chisel:block_charcoal2:1>); /* Block of Charcoal */
+JEI.removeAndHide(<forestry:charcoal>); /* Block of Charcoal */
+JEI.removeAndHide(<mekanism:basicblock:3>); /* Block of Charcoal */
+JEI.removeAndHide(<biomesoplenty:gem:6>); /* Extra Sapphire gem */
+JEI.removeAndHide(<biomesoplenty:gem_block:6>); /* Extra Block of Sapphire */
+JEI.removeAndHide(<iceandfire:silver_nugget>); /* Extra Silver Nugget */
+JEI.removeAndHide(<iceandfire:silver_ingot>); /* Extra Silver Ingot */
+JEI.removeAndHide(<iceandfire:silver_block>); /* Extra Block of Silver */
 
 # Remove Logistics Pipes items that have no uses
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_mj>);

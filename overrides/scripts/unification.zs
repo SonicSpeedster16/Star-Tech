@@ -5,7 +5,7 @@
 
 print("==== Initializing unification.zs ====");
 
-# Unify outputs of Silicon Ore processing
+# Unify machine outputs of Silicon Ore processing
 mods.actuallyadditions.Crusher.removeRecipe(<galacticraftcore:basic_item:2>);
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftplanets:venus:10>, 1.0);
 furnace.addRecipe(<galacticraftcore:basic_item:2>, <galacticraftcore:basic_block_core:8>, 1.0);
@@ -15,21 +15,30 @@ recipes.removeShapeless(<actuallyadditions:item_misc:5>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 2, <actuallyadditions:block_misc:3>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 1, <actuallyadditions:item_misc:5>);
 
+# Unify Silicon
+mods.mekanism.smelter.removeRecipe(<minecraft:quartz>);
+mods.mekanism.smelter.addRecipe(<minecraft:quartz>, <galacticraftcore:basic_item:2>);
+
 # Standardize Frost Powder crafting recipe
 recipes.removeShapeless(<netherex:frost_powder>);
 recipes.addShapeless(<netherex:frost_powder> * 2, [<netherex:frost_rod>]);
-
-# Remove duplicate Nether Quartz Ore + Petrotheum Dust recipe
-recipes.removeByRecipeName("thermalfoundation:quartz");
-
-# Remove Sapphire Ore + Petrotheum Dust recipe
-recipes.removeByRecipeName("thermalfoundation:gem_6");
 
 # Replace Forestry Bronze with Thermal Bronze
 recipes.remove(<forestry:ingot_bronze>);
 recipes.addShapeless(<thermalfoundation:material:163> * 4, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>]);
 mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 2, [[<forestry:broken_bronze_pickaxe>]], 30);
 mods.forestry.Carpenter.addRecipe(<thermalfoundation:material:163> * 1, [[<forestry:broken_bronze_shovel>]], 30);
+
+# Remove recipes in order to provide unification
+recipes.remove(<galacticraftcore:food:6>); /* Ground Beef */
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:beef>); /* Ground Beef */
+recipes.removeByRecipeName("thermalfoundation:gem_6"); /* Sapphire */
+recipes.removeByRecipeName("thermalfoundation:quartz"); /* Nether Quartz Ore + Petrotheum Dust */
+
+# Shapelessly convert items to the correct type
+recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]); /* Sapphire Gem */
+recipes.addShapeless(<thermalfoundation:material:194>, [<iceandfire:silver_nugget>]); /* Silver Nugget */
+recipes.addShapeless(<galacticraftcore:food:6>, [<harvestcraft:groundbeefitem>]); /* Ground Beef */
 
 # Remove UniDict's Gear and Plate Unification to prevent conflicts
 mods.unidict.removalByKind.get("Crafting").remove("gear");

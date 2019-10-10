@@ -23,7 +23,7 @@ recipes.removeByRecipeName("elevatorid:redye_green");
 recipes.removeByRecipeName("elevatorid:redye_red");
 recipes.removeByRecipeName("elevatorid:redye_black");
 
-# Readd recipes using Ore Dictionaried items
+# Readd recipes using Ore Dictionaried dyes
 recipes.addShaped(<elevatorid:elevator_white>, [
   [<ore:blockElevator>, <ore:dyeWhite>, null]
 ]);
