@@ -17,8 +17,8 @@
     "color" : 9,
     "rarity" : [
       {
+        "whitelist": "",
         "blacklist": "minecraft:hell, minecraft:sky",
-        "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
         "weight": 1

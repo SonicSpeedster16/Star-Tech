@@ -6,7 +6,8 @@
 print("==== Initializing matteroverdrive.zs ====");
 
 # Industrial Glass
-recipes.addShaped(<matteroverdrive:industrial_glass> * 3, [
+recipes.addShaped("Matter Overdrive Industrial Glass",
+<matteroverdrive:industrial_glass> * 3, [
   [<matteroverdrive:tritanium_plate>, null, <matteroverdrive:tritanium_plate>],
   [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
   [<matteroverdrive:tritanium_plate>, null, <matteroverdrive:tritanium_plate>]
@@ -14,7 +15,8 @@ recipes.addShaped(<matteroverdrive:industrial_glass> * 3, [
 mods.thermalexpansion.InductionSmelter.addRecipe(<matteroverdrive:industrial_glass>, <minecraft:glass>, <matteroverdrive:tritanium_ingot>, 8000);
 
 # Microwave
-recipes.addShaped(<matteroverdrive:microwave>, [
+recipes.addShaped("Microwave",
+<matteroverdrive:microwave>, [
   [null, null, null],
   [<matteroverdrive:tritanium_plate>, <minecraft:glass_pane>, <matteroverdrive:tritanium_plate>],
   [null, null, null]
@@ -23,194 +25,210 @@ recipes.addShaped(<matteroverdrive:microwave>, [
 /*~~~~~~~~~~~~~~~
 Tritanium Crates:
 ~~~~~~~~~~~~~~~~*/
-# White
-recipes.addShaped(<matteroverdrive:tritanium_crate_white>, [
+recipes.addShaped("White Tritanium Crate",
+<matteroverdrive:tritanium_crate_white>, [
   [<ore:dyeWhite>, null, <ore:dyeWhite>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_white>, [
+recipes.addShaped("Dye Tritanium Crate White",
+<matteroverdrive:tritanium_crate_white>, [
   [<ore:dyeWhite>, null, <ore:dyeWhite>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Orange
-recipes.addShaped(<matteroverdrive:tritanium_crate_orange>, [
+recipes.addShaped("Orange Tritanium Crate",
+<matteroverdrive:tritanium_crate_orange>, [
   [<ore:dyeOrange>, null, <ore:dyeOrange>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_orange>, [
+recipes.addShaped("Dye Tritanium Crate Orange",
+<matteroverdrive:tritanium_crate_orange>, [
   [<ore:dyeOrange>, null, <ore:dyeOrange>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Magenta
-recipes.addShaped(<matteroverdrive:tritanium_crate_magenta>, [
+recipes.addShaped("Magenta Tritanium Crate",
+<matteroverdrive:tritanium_crate_magenta>, [
   [<ore:dyeMagenta>, null, <ore:dyeMagenta>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_magenta>, [
+recipes.addShaped("Dye Tritanium Crate Magenta",
+<matteroverdrive:tritanium_crate_magenta>, [
   [<ore:dyeMagenta>, null, <ore:dyeMagenta>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Light Blue
-recipes.addShaped(<matteroverdrive:tritanium_crate_light_blue>, [
+recipes.addShaped("Light Blue Tritanium Crate",
+<matteroverdrive:tritanium_crate_light_blue>, [
   [<ore:dyeLightBlue>, null, <ore:dyeLightBlue>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_light_blue>, [
+recipes.addShaped("Dye Tritanium Crate Light Blue",
+<matteroverdrive:tritanium_crate_light_blue>, [
   [<ore:dyeLightBlue>, null, <ore:dyeLightBlue>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Yellow
 recipes.remove(<matteroverdrive:tritanium_crate_yellow>);
-recipes.addShaped(<matteroverdrive:tritanium_crate_yellow>, [
+recipes.addShaped("Yellow Tritanium Crate",
+<matteroverdrive:tritanium_crate_yellow>, [
   [<ore:dyeYellow>, null, <ore:dyeYellow>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_yellow>, [
+recipes.addShaped("Dye Tritanium Crate Yellow",
+<matteroverdrive:tritanium_crate_yellow>, [
   [<ore:dyeYellow>, null, <ore:dyeYellow>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Lime
-recipes.addShaped(<matteroverdrive:tritanium_crate_lime>, [
+recipes.addShaped("Lime Tritanium Crate",
+<matteroverdrive:tritanium_crate_lime>, [
   [<ore:dyeLime>, null, <ore:dyeLime>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_lime>, [
+recipes.addShaped("Dye Tritanium Crate Lime",
+<matteroverdrive:tritanium_crate_lime>, [
   [<ore:dyeLime>, null, <ore:dyeLime>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Pink
-recipes.addShaped(<matteroverdrive:tritanium_crate_pink>, [
+recipes.addShaped("Pink Tritanium Crate",
+<matteroverdrive:tritanium_crate_pink>, [
   [<ore:dyePink>, null, <ore:dyePink>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_pink>, [
+recipes.addShaped("Dye Tritanium Crate Pink",
+<matteroverdrive:tritanium_crate_pink>, [
   [<ore:dyePink>, null, <ore:dyePink>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Gray
-recipes.addShaped(<matteroverdrive:tritanium_crate_gray>, [
+recipes.addShaped("Gray Tritanium Crate",
+<matteroverdrive:tritanium_crate_gray>, [
   [<ore:dyeGray>, null, <ore:dyeGray>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_gray>, [
+recipes.addShaped("Dye Tritanium Crate Gray",
+<matteroverdrive:tritanium_crate_gray>, [
   [<ore:dyeGray>, null, <ore:dyeGray>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Light Gray
-recipes.addShaped(<matteroverdrive:tritanium_crate_silver>, [
+recipes.addShaped("Light Gray Tritanium Crate",
+<matteroverdrive:tritanium_crate_silver>, [
   [<ore:dyeLightGray>, null, <ore:dyeLightGray>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_silver>, [
+recipes.addShaped("Dye Tritanium Crate Light Gray",
+<matteroverdrive:tritanium_crate_silver>, [
   [<ore:dyeLightGray>, null, <ore:dyeLightGray>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Cyan
-recipes.addShaped(<matteroverdrive:tritanium_crate_cyan>, [
+recipes.addShaped("Cyan Tritanium Crate",
+<matteroverdrive:tritanium_crate_cyan>, [
   [<ore:dyeCyan>, null, <ore:dyeCyan>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_cyan>, [
+recipes.addShaped("Dye Tritanium Crate Cyan",
+<matteroverdrive:tritanium_crate_cyan>, [
   [<ore:dyeCyan>, null, <ore:dyeCyan>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Purple
-recipes.addShaped(<matteroverdrive:tritanium_crate_purple>, [
+recipes.addShaped("Purple Tritanium Crate",
+<matteroverdrive:tritanium_crate_purple>, [
   [<ore:dyePurple>, null, <ore:dyePurple>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_purple>, [
+recipes.addShaped("Dye Tritanium Crate Purple",
+<matteroverdrive:tritanium_crate_purple>, [
   [<ore:dyePurple>, null, <ore:dyePurple>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Blue
-recipes.addShaped(<matteroverdrive:tritanium_crate_blue>, [
+recipes.addShaped("Blue Tritanium Crate",
+<matteroverdrive:tritanium_crate_blue>, [
   [<ore:dyeBlue>, null, <ore:dyeBlue>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_blue>, [
+recipes.addShaped("Dye Tritanium Crate Blue",
+<matteroverdrive:tritanium_crate_blue>, [
   [<ore:dyeBlue>, null, <ore:dyeBlue>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Brown
-recipes.addShaped(<matteroverdrive:tritanium_crate_brown>, [
+recipes.addShaped("Brown Tritanium Crate",
+<matteroverdrive:tritanium_crate_brown>, [
   [<ore:dyeBrown>, null, <ore:dyeBrown>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_brown>, [
+recipes.addShaped("Dye Tritanium Crate Brown",
+<matteroverdrive:tritanium_crate_brown>, [
   [<ore:dyeBrown>, null, <ore:dyeBrown>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Green
-recipes.addShaped(<matteroverdrive:tritanium_crate_green>, [
+recipes.addShaped("Green Tritanium Crate",
+<matteroverdrive:tritanium_crate_green>, [
   [<ore:dyeGreen>, null, <ore:dyeGreen>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_green>, [
+recipes.addShaped("Dye Tritanium Crate Green",
+<matteroverdrive:tritanium_crate_green>, [
   [<ore:dyeGreen>, null, <ore:dyeGreen>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Red
-recipes.addShaped(<matteroverdrive:tritanium_crate_red>, [
+recipes.addShaped("Red Tritanium Crate",
+<matteroverdrive:tritanium_crate_red>, [
   [<ore:dyeRed>, null, <ore:dyeRed>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_red>, [
+recipes.addShaped("Dye Tritanium Crate Red",
+<matteroverdrive:tritanium_crate_red>, [
   [<ore:dyeRed>, null, <ore:dyeRed>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
 ]);
 
-# Black
-recipes.addShaped(<matteroverdrive:tritanium_crate_black>, [
+recipes.addShaped("Black Tritanium Crate",
+<matteroverdrive:tritanium_crate_black>, [
   [<ore:dyeBlack>, null, <ore:dyeBlack>],
   [<matteroverdrive:tritanium_plate>, <minecraft:chest>, <matteroverdrive:tritanium_plate>],
   [null, <matteroverdrive:tritanium_plate>, null]
 ]);
-recipes.addShaped(<matteroverdrive:tritanium_crate_black>, [
+recipes.addShaped("Dye Tritanium Crate Black",
+<matteroverdrive:tritanium_crate_black>, [
   [<ore:dyeBlack>, null, <ore:dyeBlack>],
   [null, <matteroverdrive:tritanium_crate>, null],
   [null, null, null]
@@ -219,53 +237,53 @@ recipes.addShaped(<matteroverdrive:tritanium_crate_black>, [
 /*~~~~~~~~~~~~
 Color Modules:
 ~~~~~~~~~~~~~~*/
-# Red
-recipes.addShaped(<matteroverdrive:weapon_module_color>, [
+recipes.addShaped("Red Color Module",
+<matteroverdrive:weapon_module_color>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeRed>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Green
-recipes.addShaped(<matteroverdrive:weapon_module_color:1>, [
+recipes.addShaped("Green Color Module",
+<matteroverdrive:weapon_module_color:1>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeGreen>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Blue
-recipes.addShaped(<matteroverdrive:weapon_module_color:2>, [
+recipes.addShaped("Blue Color Module",
+<matteroverdrive:weapon_module_color:2>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeBlue>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Brown
-recipes.addShaped(<matteroverdrive:weapon_module_color:3>, [
+recipes.addShaped("Brown Color Module",
+<matteroverdrive:weapon_module_color:3>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeBrown>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Pink
-recipes.addShaped(<matteroverdrive:weapon_module_color:4>, [
+recipes.addShaped("Pink Color Module",
+<matteroverdrive:weapon_module_color:4>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyePink>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Sky Blue
-recipes.addShaped(<matteroverdrive:weapon_module_color:5>, [
+recipes.addShaped("Sky Blue Color Module",
+<matteroverdrive:weapon_module_color:5>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeLightBlue>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Gold
-recipes.addShaped(<matteroverdrive:weapon_module_color:6>, [
+recipes.addShaped("Gold Color Module",
+<matteroverdrive:weapon_module_color:6>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeYellow>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Lime Green
-recipes.addShaped(<matteroverdrive:weapon_module_color:7>, [
+recipes.addShaped("Lime Color Module",
+<matteroverdrive:weapon_module_color:7>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeLime>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Black
-recipes.addShaped(<matteroverdrive:weapon_module_color:8>, [
+recipes.addShaped("Black Color Module",
+<matteroverdrive:weapon_module_color:8>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeBlack>, <matteroverdrive:tritanium_plate>],
 ]);
 
-# Gray
-recipes.addShaped(<matteroverdrive:weapon_module_color:9>, [
+recipes.addShaped("Gray Color Module",
+<matteroverdrive:weapon_module_color:9>, [
   [<matteroverdrive:tritanium_plate>, <ore:dyeGray>, <matteroverdrive:tritanium_plate>],
 ]);
 

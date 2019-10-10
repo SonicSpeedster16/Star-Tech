@@ -12,6 +12,9 @@ print("==== Initializing stacks.zs ====");
 
 # Eggs
 <minecraft:egg>.maxStackSize = 64;
+<chickens:colored_egg>.maxStackSize = 64;
+<hatchery:hatcheryegg>.maxStackSize = 64;
+<moreplanets:infected_egg>.maxStackSize = 64;
 
 # Snowballs
 <minecraft:snowball>.maxStackSize = 64;

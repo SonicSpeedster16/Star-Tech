@@ -409,6 +409,11 @@
       "target": "white",
       "weight": 7,
       "id": "environmentaltech:mica"
+    },
+    {
+      "target": "white",
+      "weight": 2,
+      "id": "mekanism:saltblock"
     }
   ]
 }

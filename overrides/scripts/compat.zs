@@ -42,11 +42,14 @@ for fruit in <ore:listAllfruit>.items {
 }
 
 # Add more gems that can be used in the Numistic Dynamo
-mods.thermalexpansion.NumisticDynamo.addGemFuel(<netherex:amethyst_crystal>, 200000); /* Nether Amethyst */
+mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material:0>, 20000); /* Certus Quartz */
+mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material:1>, 40000); /* Charged Certus Quartz */
+mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material:10>, 40000); /* Pure Certus Quartz */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<actuallyadditions:item_misc:5>, 40000); /* Black Quartz */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<matteroverdrive:dilithium_crystal>, 50000); /* Dilithium */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<astralsorcery:itemcraftingcomponent:0>, 60000); /* Aquamarine */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<moreplanets:setrorium_shard>, 60000); /* Setrorium Shard */
+mods.thermalexpansion.NumisticDynamo.addGemFuel(<netherex:amethyst_crystal>, 600000); /* Nether Amethyst */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier5_items:8>, 1750000); /* Red Gem */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier7_items:7>, 1750000); /* White Gem */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier8_items:6>, 1750000); /* Blue Gem */
@@ -55,7 +58,7 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:1>, 2
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:2>, 2500000); /* Purple Diamond */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:3>, 2500000); /* Yellow Diamond */
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:4>, 2500000); /* Green Diamond */
-# Emerlads should produce more power than diamonds
+# Emeralds should produce more power than diamonds
 mods.thermalexpansion.NumisticDynamo.removeGemFuel(<minecraft:emerald>);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<minecraft:emerald>, 1500000);
 
@@ -65,7 +68,7 @@ furnace.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:charged
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:1>);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>);
 
-# Add Fluix Crystal Support for Actually Additions and Extra Utilities 2 Crusher
+# Add Fluix Crystal compat to the Actually Additions and Extra Utilities 2 Crusher
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 
@@ -223,39 +226,9 @@ mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:37>, <enderio:
 mods.extrautils2.Resonator.add(<extrautils2:ingredients:4>, <moreplanets:infected_coal>, 1600);
 mods.extrautils2.Resonator.add(<extrautils2:ingredients:4>, <moreplanets:infected_charcoal>, 1600);
 
-# Add processing recipes for ground meats
-# Beef
-mods.actuallyadditions.Crusher.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>);
-mods.extrautils2.Crusher.add(<galacticraftcore:food:6> * 2, <minecraft:beef>);
-mods.thermalexpansion.Pulverizer.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>, 1000);
-mods.appliedenergistics2.Grinder.addRecipe(<galacticraftcore:food:6> * 2, <minecraft:beef>, 5);
-mods.mekanism.crusher.addRecipe(<minecraft:beef>, <galacticraftcore:food:6> * 2);
-# Chicken
-mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>);
-mods.extrautils2.Crusher.add(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>);
-mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundchickenitem> * 2, <minecraft:chicken>, 5);
-mods.mekanism.crusher.addRecipe(<minecraft:chicken>, <harvestcraft:groundchickenitem> * 2);
-# Mutton
-mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>);
-mods.extrautils2.Crusher.add(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>);
-mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 1000);
-mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 5);
-mods.mekanism.crusher.addRecipe(<minecraft:mutton>, <harvestcraft:groundmuttonitem> * 2);
-# Pork
-mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>);
-mods.extrautils2.Crusher.add(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>);
-mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundporkitem> * 2, <minecraft:porkchop>, 5);
-mods.mekanism.crusher.addRecipe(<minecraft:porkchop>, <harvestcraft:groundporkitem> * 2);
-# Rabbit
-mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>);
-mods.extrautils2.Crusher.add(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>);
-mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundrabbititem> * 2, <minecraft:rabbit>, 5);
-mods.mekanism.crusher.addRecipe(<minecraft:rabbit>, <harvestcraft:groundrabbititem> * 2);
-# Venison
-mods.actuallyadditions.Crusher.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>);
-mods.extrautils2.Crusher.add(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>);
-mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>, 1000);
-mods.appliedenergistics2.Grinder.addRecipe(<harvestcraft:groundvenisonitem> * 2, <twilightforest:raw_venison>, 5);
-mods.mekanism.crusher.addRecipe(<twilightforest:raw_venison>, <harvestcraft:groundvenisonitem> * 2);
+# Diamond Horse Armor should be grindable in more than the Thermal Pulverizer
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_horse_armor>);
+mods.extrautils2.Crusher.add(<minecraft:diamond> * 2, <minecraft:diamond_horse_armor>);
+mods.mekanism.crusher.addRecipe(<minecraft:diamond_horse_armor>, <minecraft:diamond> * 2);
 
 print("==== Initialized compat.zs ====");

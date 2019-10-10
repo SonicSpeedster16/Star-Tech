@@ -31,9 +31,9 @@ Custom Tooltips
 <extrautils2:goldenlasso>.addTooltip(format.red("WARNING: Mobs may disappear when released! Recommend you use Animal Nets or Ender IO soul vials instead."));
 <moreplanets:ion_cannon_schematic>.addTooltip(format.red("NOTE: The ION Cannon is not yet implemented, making this schematic unusable."));
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Remove non-generated items and items with known issues
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~
+Remove items
+~~~~~~~~~~~*/
 
 # Remove ores that are not generated in the world
 JEI.removeAndHide(<forestry:resources:1>); /* Copper Ore */
@@ -41,20 +41,6 @@ JEI.removeAndHide(<forestry:resources:2>); /* Tin Ore */
 JEI.removeAndHide(<iceandfire:silver_ore>); /* Silver Ore */
 JEI.removeAndHide(<bigreactors:oreanglesite>); /* Anglesite Ore */
 JEI.removeAndHide(<bigreactors:orebenitoite>); /* Benitoite Ore */
-
-# Remove items that are exploitable or are known to cause crashes
-JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Exploitable */
-JEI.removeAndHide(<netherex:obsidian_boat>); /* Exploitable */
-JEI.removeAndHide(<minecraft:record_11>); /* Exploitable */
-JEI.removeAndHide(<hooked:hook:3>); /* Can cause server crashes */
-JEI.removeAndHide(<lightningcraft:lightning_miner>); /* Causes world-breaking crashes */
-JEI.removeAndHide(<matteroverdrive:matter_pipe>); /* Broken - item doesn't work */
-JEI.removeAndHide(<matteroverdrive:heavy_matter_pipe>); /* Broken - item doesn't work */
-
-# Remove other items that are not needed
-JEI.removeAndHide(<biomesoplenty:biome_finder>); /* Functionality provided by Nature's Compass */
-JEI.removeAndHide(<harvestcraft:groundbeefitem>); /* Removed in favor of Galacticraft's Ground Beef */
-JEI.removeAndHide(<galacticraftcore:fluid_tank>); /* Worthless compared to other fluid tanks in the pack */
 
 # Remove duplicate items
 JEI.removeAndHide(<actuallyadditions:block_misc:5>); /* Block of Charcoal */
@@ -66,8 +52,47 @@ JEI.removeAndHide(<biomesoplenty:gem_block:6>); /* Extra Block of Sapphire */
 JEI.removeAndHide(<iceandfire:silver_nugget>); /* Extra Silver Nugget */
 JEI.removeAndHide(<iceandfire:silver_ingot>); /* Extra Silver Ingot */
 JEI.removeAndHide(<iceandfire:silver_block>); /* Extra Block of Silver */
+// Food
+JEI.removeAndHide(<harvestcraft:groundbeefitem>); /* Removed in favor of Galacticraft's Ground Beef */
+JEI.removeAndHide(<actuallyadditions:item_food:0>); /* Removed in favor of Pam's Cheese */
+JEI.removeAndHide(<actuallyadditions:item_misc:4>); /* Removed in favor of Pam's Dough */
+JEI.removeAndHide(<actuallyadditions:item_food:7>); /* Removed in favor of Pam's Noodles */
+JEI.removeAndHide(<actuallyadditions:item_food:2>); /* Removed in favor of Pam's Carrot Juice */
+JEI.removeAndHide(<actuallyadditions:item_food:6>); /* Removed in favor of Pam's Spaghetti */
+JEI.removeAndHide(<actuallyadditions:item_food:5>); /* Removed in favor of Pam's Fries */
+JEI.removeAndHide(<actuallyadditions:item_food:9>); /* Removed in favor of Pam's Chocolate */
+JEI.removeAndHide(<actuallyadditions:item_food:10>); /* Removed in favor of Pam's Toast */
+JEI.removeAndHide(<actuallyadditions:item_food:13>); /* Removed in favor of Pam's Burgers */
+JEI.removeAndHide(<galacticraftcore:food:8>); /* Removed in favor of Pam's Burgers */
+JEI.removeAndHide(<actuallyadditions:item_food:14>); /* Removed in favor of Pam's Pizza */
+JEI.removeAndHide(<actuallyadditions:item_food:15>); /* Baguette */
+JEI.removeAndHide(<actuallyadditions:item_food:18>); /* Doughnut */
+JEI.removeAndHide(<actuallyadditions:item_food:20>); /* Removed in favor of Tinkers Bacon Jerky */
+
+# Remove items that are exploitable or are known to cause crashes
+JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Exploitable */
+JEI.removeAndHide(<netherex:obsidian_boat>); /* Exploitable */
+JEI.removeAndHide(<minecraft:record_11>); /* Exploitable */
+JEI.removeAndHide(<hooked:hook:3>); /* Can cause server crashes */
+JEI.removeAndHide(<lightningcraft:lightning_miner>); /* Causes world-breaking crashes */
+JEI.removeAndHide(<matteroverdrive:matter_pipe>); /* Broken - item doesn't work */
+JEI.removeAndHide(<matteroverdrive:heavy_matter_pipe>); /* Broken - item doesn't work */
+
+# Remove items that could potentially be exploited to get space materials early
+JEI.removeAndHide(<extrabees:honey_comb:40>); /* Zinc Comb */
+JEI.removeAndHide(<extrabees:misc:14>); /* Zinc Grains */
+JEI.removeAndHide(<extrabees:honey_comb:41>); /* Titanium Comb */
+JEI.removeAndHide(<extrabees:misc:15>); /* Titanium Grains */
+JEI.removeAndHide(<extrabees:honey_comb:42>); /* Tungsten Comb */
+JEI.removeAndHide(<extrabees:misc:16>); /* Tungsten Grains */
+
+# Remove other items that are not needed
+JEI.removeAndHide(<biomesoplenty:biome_finder>); /* Removed in favor of Nature's Compass */
+JEI.removeAndHide(<galacticraftcore:fluid_tank>); /* Worthless compared to other fluid tanks in the pack */
+JEI.removeAndHide(<enderio:item_material:70>); /* Removed item in favor of Pam's Cake recipe */
 
 # Remove items that have no uses
+JEI.removeAndHide(<harvestcraft:royaljellyitem>);
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_mj>);
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_lv>);
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_hv>);
@@ -75,5 +100,15 @@ JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_mv>);
 JEI.removeAndHide(<logisticspipes:upgrade_power_supplier_eu_ev>);
 JEI.removeAndHide(<logisticspipes:power_provider_eu>);
 JEI.removeAndHide(<logisticspipes:power_provider_mj>);
+JEI.removeAndHide(<extraplanets:tier11_items:7>);
+JEI.removeAndHide(<extraplanets:tier11_items:8>);
+JEI.removeAndHide(<extraplanets:tier11_items:9>);
+JEI.removeAndHide(<extraplanets:tier11_items:10>);
+JEI.removeAndHide(<extraplanets:tier11_items:11>);
+JEI.removeAndHide(<extraplanets:tier11_items:12>);
+// Actually Additions Knife
+JEI.removeAndHide(<actuallyadditions:item_misc:2>);
+JEI.removeAndHide(<actuallyadditions:item_misc:3>);
+JEI.removeAndHide(<actuallyadditions:item_knife>);
 
 print("==== Initialized jei.zs ====");

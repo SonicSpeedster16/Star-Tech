@@ -1,3 +1,44 @@
+Star Tech 2.2.0  (10-05-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Further improved compatability for Forestry backpacks.
+-Fully unified Gears and Pulverized (Char)Coal.
+-Salt can now be crafted and also collected using the Void Resource Miner.
+-Modified several recipes for food items (giving preference to Pam's recipes).
+-Added a recipe to convert Beetroot directly into Beetroot Seeds.
+-Tweaked a few recipes here and there to resolve conflicts.
+-Cleaned up and removed a number of duplicate and/or unnecessary recipes.
+-Hid a few more unusable/uncraftable items in JEI.
+-Enabled parallel, threaded model baking in FoamFix config (should help improve performance).
+-Slightly lowered canopy coverage in the Twilight Forest (should help performance when generating chunks in that dimension).
+-Stop logging cascading worldgen lag (cleans up console spam).
+-Lowered the number of backups saved (to help save disk space).
+
+MODS:
+Removed:
+-
+Added:
+-Logistics Bridge 1.2.2
+Updated:
+-Extra Planets (0.5.6 > 0.5.8)
+-Flux Networks (4.0.8 > 4.0.10)
+-Ice and Fire (1.8.1 > 1.8.2)
+-MJRLegends Lib (1.1.8 > 1.1.9)
+-Mekanism (9.8.1.383 > 9.8.2.389)
+-Mekanism Generators (9.8.1.383 > 9.8.2.389)
+-Mekanism Tools (9.8.1.383 > 9.8.2.389)
+-RandomPatches (1.18.1.1 > 1.19.0.0)
+-Reborn Core (3.16.2.473 > 3.16.3.476)
+-Simply Backpacks (1.2.2 > 1.2.3)
+-Xaero's Minimap (1.18.1 > 1.18.3.1)
+
+
+SERVER:
+-
+
+
 Star Tech 2.1.0  (09-21-2019)
 -------------------------------------
 COMMENTS:

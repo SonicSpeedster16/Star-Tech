@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Star Tech",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "SonicSpeedster16",
   "projectID": 317921,
   "files": [
@@ -297,7 +297,7 @@
     },
     {
       "projectID": 241291,
-      "fileID": 2762869,
+      "fileID": 2793936,
       "required": true
     },
     {
@@ -337,7 +337,7 @@
     },
     {
       "projectID": 248020,
-      "fileID": 2790672,
+      "fileID": 2792153,
       "required": true
     },
     {
@@ -387,7 +387,7 @@
     },
     {
       "projectID": 264231,
-      "fileID": 2767576,
+      "fileID": 2800760,
       "required": true
     },
     {
@@ -461,6 +461,11 @@
       "required": true
     },
     {
+      "projectID": 336380,
+      "fileID": 2801513,
+      "required": true
+    },
+    {
       "projectID": 232838,
       "fileID": 2787642,
       "required": true
@@ -487,22 +492,22 @@
     },
     {
       "projectID": 284331,
-      "fileID": 2658272,
+      "fileID": 2793580,
       "required": true
     },
     {
       "projectID": 268560,
-      "fileID": 2755008,
+      "fileID": 2798295,
       "required": true
     },
     {
       "projectID": 268566,
-      "fileID": 2755010,
+      "fileID": 2798297,
       "required": true
     },
     {
       "projectID": 268567,
-      "fileID": 2755011,
+      "fileID": 2798298,
       "required": true
     },
     {
@@ -627,7 +632,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 2766661,
+      "fileID": 2801482,
       "required": true
     },
     {
@@ -642,7 +647,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2779436,
+      "fileID": 2798089,
       "required": true
     },
     {
@@ -717,7 +722,7 @@
     },
     {
       "projectID": 311595,
-      "fileID": 2699269,
+      "fileID": 2799989,
       "required": true
     },
     {
@@ -867,7 +872,7 @@
     },
     {
       "projectID": 263420,
-      "fileID": 2788077,
+      "fileID": 2800301,
       "required": true
     },
     {

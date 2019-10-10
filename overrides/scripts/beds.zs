@@ -1,6 +1,6 @@
 #Name: beds.zs
 #Author: SonicSpeedster16
-#Description: Modify recipes to allow any color (not only white) bed, sleeping bag or hammock to be dyed
+#Description: Modify recipes to allow any color bed, sleeping bag or hammock to be dyed (instead of only white) 
 #Written for use in the Star Tech modpack: https://www.curseforge.com/minecraft/modpacks/star-tech
 
 print("==== Initializing beds.zs ====");
@@ -77,67 +77,83 @@ recipes.removeByRecipeName("minecraft:black_bed_from_white_bed");
 recipes.removeByRecipeName("minecraft:orange_bed_from_white_bed");
 
 # Readd recipes using Ore Dictionaried items
-recipes.addShaped(<minecraft:bed:0>, [
+recipes.addShaped("Dye Bed White",
+<minecraft:bed:0>, [
   [<ore:bed>, <ore:dyeWhite>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:1>, [
+recipes.addShaped("Dye Bed Orange",
+<minecraft:bed:1>, [
   [<ore:bed>, <ore:dyeOrange>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:2>, [
+recipes.addShaped("Dye Bed Magenta",
+<minecraft:bed:2>, [
   [<ore:bed>, <ore:dyeMagenta>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:3>, [
+recipes.addShaped("Dye Bed Light Blue",
+<minecraft:bed:3>, [
   [<ore:bed>, <ore:dyeLightBlue>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:4>, [
+recipes.addShaped("Dye Bed Yellow",
+<minecraft:bed:4>, [
   [<ore:bed>, <ore:dyeYellow>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:5>, [
+recipes.addShaped("Dye Bed Lime",
+<minecraft:bed:5>, [
   [<ore:bed>, <ore:dyeLime>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:6>, [
+recipes.addShaped("Dye Bed Pink",
+<minecraft:bed:6>, [
   [<ore:bed>, <ore:dyePink>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:7>, [
+recipes.addShaped("Dye Bed Gray",
+<minecraft:bed:7>, [
   [<ore:bed>, <ore:dyeGray>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:8>, [
+recipes.addShaped("Dye Bed Light Gray",
+<minecraft:bed:8>, [
   [<ore:bed>, <ore:dyeLightGray>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:9>, [
+recipes.addShaped("Dye Bed Cyan",
+<minecraft:bed:9>, [
   [<ore:bed>, <ore:dyeCyan>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:10>, [
+recipes.addShaped("Dye Bed Purple",
+<minecraft:bed:10>, [
   [<ore:bed>, <ore:dyePurple>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:11>, [
+recipes.addShaped("Dye Bed Blue",
+<minecraft:bed:11>, [
   [<ore:bed>, <ore:dyeBlue>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:12>, [
+recipes.addShaped("Dye Bed Brown",
+<minecraft:bed:12>, [
   [<ore:bed>, <ore:dyeBrown>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:13>, [
+recipes.addShaped("Dye Bed Green",
+<minecraft:bed:13>, [
   [<ore:bed>, <ore:dyeGreen>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:14>, [
+recipes.addShaped("Dye Bed Red",
+<minecraft:bed:14>, [
   [<ore:bed>, <ore:dyeRed>, null]
 ]);
 
-recipes.addShaped(<minecraft:bed:15>, [
+recipes.addShaped("Dye Bed Black",
+<minecraft:bed:15>, [
   [<ore:bed>, <ore:dyeBlack>, null]
 ]);
 
@@ -164,67 +180,83 @@ recipes.removeByRecipeName("comforts:sleeping_bag_black_from_white");
 recipes.removeByRecipeName("comforts:sleeping_bag_orange_from_white");
 
 # Readd recipes using Ore Dictionaried items
-recipes.addShaped(<comforts:sleeping_bag:0>, [
+recipes.addShaped("Dye Sleeping Bag White",
+<comforts:sleeping_bag:0>, [
   [<ore:sleepingBag>, <ore:dyeWhite>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:1>, [
+recipes.addShaped("Dye Sleeping Bag Orange",
+<comforts:sleeping_bag:1>, [
   [<ore:sleepingBag>, <ore:dyeOrange>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:2>, [
+recipes.addShaped("Dye Sleeping Bag Magenta",
+<comforts:sleeping_bag:2>, [
   [<ore:sleepingBag>, <ore:dyeMagenta>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:3>, [
+recipes.addShaped("Dye Sleeping Bag Light Blue",
+<comforts:sleeping_bag:3>, [
   [<ore:sleepingBag>, <ore:dyeLightBlue>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:4>, [
+recipes.addShaped("Dye Sleeping Bag Yellow",
+<comforts:sleeping_bag:4>, [
   [<ore:sleepingBag>, <ore:dyeYellow>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:5>, [
+recipes.addShaped("Dye Sleeping Bag Lime",
+<comforts:sleeping_bag:5>, [
   [<ore:sleepingBag>, <ore:dyeLime>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:6>, [
+recipes.addShaped("Dye Sleeping Bag Pink",
+<comforts:sleeping_bag:6>, [
   [<ore:sleepingBag>, <ore:dyePink>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:7>, [
+recipes.addShaped("Dye Sleeping Bag Gray",
+<comforts:sleeping_bag:7>, [
   [<ore:sleepingBag>, <ore:dyeGray>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:8>, [
+recipes.addShaped("Dye Sleeping Bag Light Gray",
+<comforts:sleeping_bag:8>, [
   [<ore:sleepingBag>, <ore:dyeLightGray>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:9>, [
+recipes.addShaped("Dye Sleeping Bag Cyan",
+<comforts:sleeping_bag:9>, [
   [<ore:sleepingBag>, <ore:dyeCyan>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:10>, [
+recipes.addShaped("Dye Sleeping Bag Purple",
+<comforts:sleeping_bag:10>, [
   [<ore:sleepingBag>, <ore:dyePurple>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:11>, [
+recipes.addShaped("Dye Sleeping Bag Blue",
+<comforts:sleeping_bag:11>, [
   [<ore:sleepingBag>, <ore:dyeBlue>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:12>, [
+recipes.addShaped("Dye Sleeping Bag Brown",
+<comforts:sleeping_bag:12>, [
   [<ore:sleepingBag>, <ore:dyeBrown>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:13>, [
+recipes.addShaped("Dye Sleeping Bag Green",
+<comforts:sleeping_bag:13>, [
   [<ore:sleepingBag>, <ore:dyeGreen>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:14>, [
+recipes.addShaped("Dye Sleeping Bag Red",
+<comforts:sleeping_bag:14>, [
   [<ore:sleepingBag>, <ore:dyeRed>, null]
 ]);
 
-recipes.addShaped(<comforts:sleeping_bag:15>, [
+recipes.addShaped("Dye Sleeping Bag Black",
+<comforts:sleeping_bag:15>, [
   [<ore:sleepingBag>, <ore:dyeBlack>, null]
 ]);
 
@@ -251,67 +283,83 @@ recipes.removeByRecipeName("comforts:hammock_black_from_white");
 recipes.removeByRecipeName("comforts:hammock_orange_from_white");
 
 # Readd recipes using Ore Dictionaried items
-recipes.addShaped(<comforts:hammock:0>, [
+recipes.addShaped("Dye Hammock White",
+<comforts:hammock:0>, [
   [<ore:hammock>, <ore:dyeWhite>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:1>, [
+recipes.addShaped("Dye Hammock Orange",
+<comforts:hammock:1>, [
   [<ore:hammock>, <ore:dyeOrange>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:2>, [
+recipes.addShaped("Dye Hammock Magenta",
+<comforts:hammock:2>, [
   [<ore:hammock>, <ore:dyeMagenta>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:3>, [
+recipes.addShaped("Dye Hammock Light Blue",
+<comforts:hammock:3>, [
   [<ore:hammock>, <ore:dyeLightBlue>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:4>, [
+recipes.addShaped("Dye Hammock Yellow",
+<comforts:hammock:4>, [
   [<ore:hammock>, <ore:dyeYellow>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:5>, [
+recipes.addShaped("Dye Hammock Lime",
+<comforts:hammock:5>, [
   [<ore:hammock>, <ore:dyeLime>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:6>, [
+recipes.addShaped("Dye Hammock Pink",
+<comforts:hammock:6>, [
   [<ore:hammock>, <ore:dyePink>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:7>, [
+recipes.addShaped("Dye Hammock Gray",
+<comforts:hammock:7>, [
   [<ore:hammock>, <ore:dyeGray>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:8>, [
+recipes.addShaped("Dye Hammock Light Gray",
+<comforts:hammock:8>, [
   [<ore:hammock>, <ore:dyeLightGray>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:9>, [
+recipes.addShaped("Dye Hammock Cyan",
+<comforts:hammock:9>, [
   [<ore:hammock>, <ore:dyeCyan>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:10>, [
+recipes.addShaped("Dye Hammock Purple",
+<comforts:hammock:10>, [
   [<ore:hammock>, <ore:dyePurple>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:11>, [
+recipes.addShaped("Dye Hammock Blue",
+<comforts:hammock:11>, [
   [<ore:hammock>, <ore:dyeBlue>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:12>, [
+recipes.addShaped("Dye Hammock Brown",
+<comforts:hammock:12>, [
   [<ore:hammock>, <ore:dyeBrown>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:13>, [
+recipes.addShaped("Dye Hammock Green",
+<comforts:hammock:13>, [
   [<ore:hammock>, <ore:dyeGreen>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:14>, [
+recipes.addShaped("Dye Hammock Red",
+<comforts:hammock:14>, [
   [<ore:hammock>, <ore:dyeRed>, null]
 ]);
 
-recipes.addShaped(<comforts:hammock:15>, [
+recipes.addShaped("Dye Hammock Black",
+<comforts:hammock:15>, [
   [<ore:hammock>, <ore:dyeBlack>, null]
 ]);
 

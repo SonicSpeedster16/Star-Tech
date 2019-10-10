@@ -83,15 +83,10 @@ print("==== Initializing OreDict.zs ====");
 # Chocolate bars
 <ore:foodChocolatebar>.add(<extraplanets:chocolate_bar>);
 <ore:foodChocolatebar>.add(<moreplanets:chocolate_bar>);
-<ore:foodChocolatebar>.add(<actuallyadditions:item_food:9>);
 # Caramel
 <ore:foodCaramel>.add(<extraplanets:caramel_bar>);
 # Cheese
-<ore:foodCheese>.add(<actuallyadditions:item_food:0>);
 <ore:foodCheese>.add(<moreplanets:cheese_milk_curd>);
-# Dough
-<ore:foodDough>.add(<actuallyadditions:item_misc:4>);
-<ore:foodDough>.add(<actuallyadditions:item_misc:9>);
 # Meat
 <ore:foodMeat>.add(<moreplanets:raw_cheese_beef>);
 <ore:foodMeat>.add(<moreplanets:cooked_cheese_beef>);
@@ -135,31 +130,28 @@ print("==== Initializing OreDict.zs ====");
 # Berries
 <ore:listAllberry>.add(<biomesoplenty:berries>);
 <ore:listAllfruit>.add(<biomesoplenty:berries>);
+<ore:listAllberry>.add(<moreplanets:cheese_spore_berry>);
+<ore:listAllberry>.add(<moreplanets:alien_berry>);
+<ore:listAllberry>.add(<moreplanets:golden_alien_berry>);
+<ore:listAllberry>.add(<moreplanets:terraberry>);
+<ore:cropStrawberry>.add(<moreplanets:strawberry>);
+<ore:listAllberry>.add(<moreplanets:strawberry>);
+<ore:cropBlueberry>.add(<moreplanets:giant_blueberry>);
+<ore:listAllberry>.add(<moreplanets:giant_blueberry>);
 # Kelp
 <ore:cropSeaweed>.add(<biomesoplenty:seaweed>);
 <ore:listAllgreenveggie>.add(<biomesoplenty:seaweed>);
 <ore:listAllveggie>.add(<biomesoplenty:seaweed>);
-# Juice
-<ore:listAlljuice>.add(<actuallyadditions:item_food:2>);
-<ore:foodCarrotjuice>.add(<actuallyadditions:item_food:2>);
 # Cookies
 <ore:listAllcookie>.add(<minecraft:cookie>);
 <ore:listAllcookie>.add(<actuallyadditions:item_food:12>);
 <ore:listAllcookie>.add(<harvestcraft:meringuecookieitem>);
-# Burgers
-<ore:foodHamburger>.add(<actuallyadditions:item_food:13>);
-<ore:foodCheeseburger>.add(<galacticraftcore:food:8>);
-# Misc
-<ore:foodFries>.add(<actuallyadditions:item_food:4>); /* French Fries */
-<ore:foodSpagetti>.add(<actuallyadditions:item_food:6>); /* Spaghetti */
-<ore:foodNoodles>.add(<actuallyadditions:item_food:7>); /* Noodles */
-<ore:foodToast>.add(<actuallyadditions:item_food:10>); /* Toast */
-<ore:foodPizza>.add(<actuallyadditions:item_food:14>); /* Pizza */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Remove Ore Dictionary entries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 <ore:cropFlax>.remove(<minecraft:string>); /* String != flax */
+<ore:flourEqualswheat>.remove(<minecraft:wheat>); /* Wheat != flour */
 <ore:blockGlassWhite>.remove(<enderio:block_fused_glass>);  /* Quite CLEAR Glass is not white */
 <ore:nuggetSilver>.remove(<iceandfire:silver_nugget>); /* Removed in favor of Thermal Silver */
 # Remove OreDict entries from Pam's Ground Beef in favor of Ground Beef from Galacticraft
