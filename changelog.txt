@@ -1,0 +1,695 @@
+Star Tech 2.0.0  (09-12-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Updated Forge to 14.23.5.2844.
+-Regenerated the config files of all the mods.
+-Generated json with world-gen information (JER should now correctly display dimension and Y level for finding ores and other items).
+-Improved Overworld structure, dungeon and village generation and variation.
+-AE2 meteorites will now only spawn in the Mining Dimension.
+-Oil will no longer generate in the Twilight Forest.
+-Dimensional Shard Ore can now be found in the Twilight Forest and Mining Dimensions in addition to the Nether.
+-Added Sulfur and Fire Charges as compatible materials for furnace fuel.
+-Added compatibility for more fuels (in addition to lava) to the Tinkers Smeltery.
+-Several more types of gems can be used in the Numistic Dynamo to generate power.
+-Added several Quality of Life recipes such as Blocks of Clay back to Clay Balls, Block of Quartz back to Nether Quartz, etc.
+-Restored the default Angel Ring recipe.
+-Fixed the recipe for casting Tritanium Plates in a Tinkers smeltery.
+-Elevators can now be dyed different colors using any dye (not just Vanilla dyes).
+-Tweaked a number of recipes from several mods to improve balance and compatability.
+-Improved cross-mod ore processing compatibility (i.e. more ores work in Mekanism machines, EnderIO materials can be processed with Thermal machines, etc.)
+-The Industrial Foregoing Laser Miner can now mine ores from other mods as well.
+-Unified many items (such as sapphire, blocks of charcoal, several dusts, etc.)
+-Unified many tools made from the same materials (such as swoards, sickles, picks, etc.)
+-Enabled AE2 Channels.
+-Flux Plugs can no longer directly power AE2 systems (prevents crashes).
+-Modded dirts can now be converted to vanilla dirt using the Atomic Reconstructer.
+-Removed the Creative Hook and Lightning Miner (these items caused severe crashes).
+-Slightly lowered the power production of upper-tier Environmental Tech solar panels.
+-Enabled the ExtraPlanets Enhanced Celestial Map instead of the standard Galacticraft map.
+-No longer statically load new Space Station dimensions by default.
+-Added more items to the Ore Dictionary (mostly to provide compatibility with Pam's).
+-Increased the spawn rate of Pigmen and other mobs to make the Nether more dangerous.
+-Pigmen now have a chance to become agressive when a player mines blocks from the Nether.
+-Nethermites can now spawn when netherrack is broken.
+-Increased spawn rate of Rogue Androids (they will also no longer spawn on Cursed Earth) and underground Trolls.
+-Lowered length of the Siren's song to 30 seconds with a 45 second cooldown.
+-Slightly increased the spawn rate of underground dragons.
+-Dragons will no longer spawn within 400 blocks of the Spawn Point.
+-Tamed dragons will no longer wander as far and should no longer break blocks in their way.
+-Disabled update notifications from several mods (prevents chat spam on login).
+-Increased the stack size of several items.
+-Many more changes and improvements!
+
+MODS:
+Removed:
+-Angel Ring To Bauble
+-Better Animals Plus
+-Bountiful
+-Chicken Nugget
+-Factory Tech
+-Immersive Engineering
+-MCMultiPart
+-More Planets Extras
+-Planet Progression
+-Redstone Gauges and Switches
+-Unloader
+-Villager Market
+Added:
+-Anger Management 1.0.2
+-Armory Expansion 1.3.4b
+-Forgiving Void 1.0.23
+-Hatchery 2.2.2
+-IncreaseMobs 1.1.0
+-Logistics Pipes 0.10.2.206
+-More Chickens 3.1.0
+-Naturally Charged Creepers 1.1
+-PlusTiC 7.1.4.1
+-SmoothFont 2.1.1
+-Worley's Caves 1.5.0
+Updated:
+-/dank/null (1.4.43 > 1.6.80)
+-Actually Additions (r149 > r150)
+-AE2 Wireless Terminal Library (1.0.6 > 1.0.30)
+-AnimalNet (1.12.2 b1 > 1.12.2 b3)
+-Applied Energistics 2 (rv6-stable-6 > rv6-stable-7)
+-Aroma1997Core (2.0.0.2 > 2.0.0.2.b165)
+-Aroma1997s Dimensional World (2.0.0.2 > 2.0.0.2.b89)
+-AromaBackup (3.0.0.0.b123 > 3.0.0.0.b129)
+-Astral Sorcery (1.10.19 > 1.10.20)
+-Bookshelf (2.3.585 > 2.3.588)
+-Building Gadgets (2.6.8 > 2.7.3)
+-Chicken Chunks 1.8.+ (2.4.1.73 > 2.4.2.74)
+-CodeChicken Lib 1.8.+ (3.2.2.353 > 3.2.3.358)
+-Enchantment Descriptions (1.1.15 > 1.1.19)
+-EnderCore (0.5.59 > 0.5.69)
+-Ender IO (5.0.46 > 5.1.51)
+-Ender IO Endergy (5.0.46 > 5.1.51)
+-Ender IO Zoo (5.0.46 > 5.1.51)
+-Ender Storage 1.8.+ (2.4.5.135 > 2.4.6.137)
+-ExtraPlanets (0.5.3 > 0.5.6)
+-FTB Library (5.4.3.129 > 5.4.3.134)
+-FTB Utilities (5.4.0.100 > 5.4.0.102)
+-Forestry (5.8.2.387 > 5.8.2.394)
+-Galacticraft Core (4.0.2.211 > 4.0.2.236)
+-Galacticraft Planets (4.0.2.211 > 4.0.2.236)
+-Gas Conduits (1.2.1 > 1.2.2)
+-GraveStone Mod (1.10.2 > 1.10.3)
+-Ice and Fire (1.7.1 > 1.8.1)
+-Inventory Pets (2.0.1 > 2.0.3)
+-Just Enough Items (JEI) (4.15.0.287 > 4.15.0.289)
+-LibraryEx (1.0.8 > 1.0.11)
+-McJtyLib (3.5.3 > 3.5.4)
+-Mekanism (9.7.9.380 > 9.8.1.383)
+-Mekanism Generators (9.7.9.380 > 9.8.1.383)
+-Mekanism Tools (9.7.9.380 > 9.8.1.383)
+-Metal Chests (5.8.9 > 6.1.0)
+-MicDoodle Core (4.0.2.211 > 4.0.2.236)
+-More Planets (2.1.5 > 2.1.8)
+-NetherEx (2.0.8 > 2.0.13)
+-OpenBlocks Elevator (1.3.10 > 1.3.11)
+-p455w0rd's Library (2.1.44 > 2.2.156)
+-Pam's HarvestCraft (1.12.2zd > 1.12.2zf)
+-Phosphor (0.2.4 > 0.2.6)
+-PlantTech 2 (1.0.7 > 1.0.9)
+-PneumaticCraft: Repressurized (0.11.4-368 > 0.11.5-371)
+-RandomPatches (1.17.2.1 > 1.18.1.1)
+-Reborn Core (3.14.1.457 > 3.16.2.473)
+-Refined Storage (1.6.14 > 1.6.15)
+-RFTools (7.71 > 7.72)
+-Slide'em ALL (0.95 > 1.03)
+-SteveKunG's Lib (1.0.5 > 1.1.4)
+-Storage Drawers (5.3.8 > 5.4.0)
+-TBone (1.6.0 > 1.6.8)
+-ThermalLogistics (0.2-25 > 0.2-26)
+-Twilight Forest (3.8.689 > 3.9.984)
+-Wireless Crafting Terminal (3.11.88 > 3.12.93)
+-Xaero's Minimap (1.17.4 > 1.17.9)
+-Xaero's World Map (1.4.3 > 1.4.9)
+-XNet (1.8.1 > 1.8.2)
+
+
+SERVER:
+Refreshed startup scripts with latest changes from All The Mods team (https://github.com/AllTheMods/Server-Scripts)
+Added World Primer (used to provide ClearLagg-type functionality)
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.8.1  (07-25-2019)
+-------------------------------------
+COMMENTS:
+Hotfix update to actually remove the Quick Leaf Decay mod that was supposed to be removed in 1.8.0. No other changes.
+
+CHANGES:
+
+
+MODS:
+Removed:
+-Quick Leaf Decay (funtionality now provided by TBone)
+
+
+SERVER:
+This release will still work with the Server Pack for 1.8.0. There is no need to update the Server Pack (Quick Leaf Decay was removed from the Server Pack for 1.8.0; I just forgot to actually remove it from the main download).
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.8.0  (07-22-2019)
+-------------------------------------
+COMMENTS:
+This update has a strong focus on stability, compatibility and standardization. Several crashes from several mods have been fixed (whether by updating the mod itself or by changing the config), many items that were missing recipes are now craftable, silicon has been unified (there is no longer 5 different kinds of silicon), inter-mod compatibility has been improved (more mods can use and are compatibile with items from other mods), and several recipes types have been standardized.
+
+CHANGES:
+-Added missing recipes for several items from Matter Overdrive.
+-Fixed missing smelting recipes for Galacticraft Silicon Ore.
+-Tweaked and standardized all metal gear and metal plate recipes.
+-Added Matter Overdrive's Industrial Glass to the Ore Dictionary.
+-Added Chisel and Extra Planets Marble to the Ore Dictionary (adds compat with Astral Sorcery Marble)
+-Added Sawdust and Wood Pulp to the Ore Dictionary (they should now be interchangeable in recipes).
+-Unifed all silicon (Galacticraft's silicon is default).
+-Added shapeless conversion recipes for silicon.
+-Removed duplicate Nether Quartz Ore + Petrotheum Dust recipe.
+-Blank Tinkers' casts can now be melted down and reused.
+-Disabled LightningCraft's Chisel integration (prevents crashes).
+-Hid "Curse of Vanishing" and "Shimmer" from JER's Enchantment tab.
+-Moved the Android HUD to the left side of screen (to prevent overlap with minimap).
+-Moved the oxygen indicator to lower right side of screen (to prevent overlap with Andriod HUD).
+-Regenerated some configs.
+-Hid some broken items in JEI.
+
+MODS:
+Removed:
+-Quick Leaf Decay (funtionality now provided by TBone)
+Updated:
+-Factory Tech (1.6.8 > 1.6.8c)
+-Industrial Foregoing (1.12.12-236 > 1.12.13-237)
+-Metal Chests (5.8.1 > 5.8.9)
+-Planet Progression (0.3.5 > 0.3.6)
+-PneumaticCraft: Repressurized (0.11.3-366 > 0.11.4-368)
+-RandomPatches (1.17.2.0 > 1.17.2.1)
+-Reborn Core (3.13.12.447 > 3.14.1.457)
+-TBone (1.3.3 > 1.6.0)
+-Xaero's Minimap (1.17.3 > 1.17.4)
+-Xaero's World Map (1.4 > 1.4.3)
+
+SERVER:
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.7.0  (07-12-2019)
+-------------------------------------
+COMMENTS:
+This update is a bit lighter on mod updates and instead focuses on improving inter-mod compatibility and fixing issues. A lot of time has gone into reworking the CraftTweaker scripts to fix items from certain mods not working in machines from other mods, fix recipes that used unobtainable items, and make them more readable for future updates. The other big item in this release is the addition of LightningCraft to the pack.
+
+CHANGES:
+-Fixed the Atomic Battery recipe (now accepts any lead ingot).
+-The Decontamination Unit now removes all radiation.
+-Even more types of glass can be used with the Oxygen Sealer.
+-Certain Galacticraft and More Planets ores are now usable in more Mekanism machines.
+-Added Chisel variations to Astral Sorcery's Marble and some Twilight Forest items.
+-BoP and Ice and Fire Sapphires can now be shapelessly converted to each other.
+-Fixed tier of planets in More Planets mod.
+-Hid Fronos blocks in JEI (planet is not implemented yet).
+-Improved readability of Craftweaker scripts.
+
+MODS:
+Added:
+-LightningCraft 2.9.1
+Updated:
+-Actually Additions (r148 > r149)
+-AnimalNet (1.12 > 1.12.2 b1)
+-AromaBackup (3.0.0.0.b118 > 3.0.0.0.b123)
+-Cooking for Blockheads (6.4.70 > 6.4.71)
+-FTB Library (5.4.3.124 > 5.4.3.129)
+-FTB Utilities (5.4.0.99 > 5.4.0.100)
+-Just Enough Items (JEI) (4.15.0.283 > 4.15.0.287)
+-Mekanism (9.7.8.379 > 9.7.9.380)
+-Mekanism Generators (9.7.8.379 > 9.7.9.380)
+-Mekanism Tools (9.7.8.379 > 9.7.9.380)
+-MetalChests (5.2.8 > 5.8.1)
+-Mod Name Tooltip (1.10.0 > 1.10.1)
+-RandomPatches (1.16.3.1 > 1.17.2.0)
+-Redstone Gauges and Switches (1.1.5 > 1.1.6)
+-TBone (1.3.0 > 1.3.3)
+
+SERVER:
+Removed client-side only mods
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.6.0  (07-04-2019)
+-------------------------------------
+COMMENTS:
+This update downgrades several mods due to multiple crashes and performance issues in the more recent versions. Forge is also updated to the latest version for 1.12.2, and the CraftTweaker scripts have again been updated and cleaned up. Several space-related items that were previously uncraftable now have craftable recipes.
+
+CHANGES:
+-Updated Minecraft FORGE to 14.23.5.2838
+-Fixed recipes for upgrading to the tier 4 Space Suit.
+-Fixed several recipes for items and machines from Extra Planets (Electric Vehicles and Rockets are now obtainable!).
+-Added smelting recipes for AE2 Certus Quartz Ore/Charged Certus Quartz Ore.
+-Removed Extra Planets Uranium Armor and Tools (was uncraftable and low tier anyway).
+-Restored default radiation settings.
+-Added chocolate bars and caramel to the Ore Dictionary (should make chocolate bars and caramel from other mods compatible with Pam's HarvestCraft).
+-Hid a few more unusable items in JEI.
+-General script cleanup.
+
+MODS:
+Downgraded:
+-/dank/null (1.5.71 > 1.4.43)
+-AE2 Wireless Terminal Library (1.0.30 > 1.0.6)
+-p455w0rd's Library (2.2.51 > 2.1.44)
+-Wireless Crafting Terminal (3.12.93 > 3.11.88)
+Updated:
+-Bookshelf (2.3.584 > 2.3.585)
+-Controlling (3.0.6 > 3.0.7)
+-Ender IO (5.0.44 > 5.0.46)
+-Ender IO Endergy (5.0.44 > 5.0.46)
+-Ender IO Zoo (5.0.44 > 5.0.46)
+-EnderCore (0.5.57 > 0.5.59)
+-Factory Tech (1.6.7 > 1.6.8)
+-FTB Library (4.5.3.117 > 5.4.3.124)
+-FTB Utilities (5.4.0.97 > 5.4.0.99)
+-Just Enough Items (JEI) (4.15.0.281 > 4.15.0.283)
+-Just Enough Resources (JER) (0.9.2.58 > 0.9.2.60)
+-MetalChests (5.1.2 > 5.2.8)
+-RandomPatches (1.16.1.0 > 1.16.3.1)
+-Redstone Gauges and Switches (1.1.4 > 1.1.5)
+-Tinkers Construct (2.12.0.135 > 2.12.0.157)
+-Xaero's Minimap (1.17.2 > 1.17.3)
+-Xaero's World Map (1.3.5 > 1.4.0)
+
+SERVER:
+
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.5.0  (06-22-2019)
+-------------------------------------
+COMMENTS:
+Here's another update bringing a fair amount of changes. It's recommended to reset your mining dimensions due to a number of changes specifically affecting that dimension.
+
+CHANGES:
+-Void Ore Miners will now collect ores from Matter Overdrive.
+-Void Resource Miners will now collect raw basalt, limestone and marble instead of chiseled versions.
+-AE2 meteorites will now only generate in the Overworld.
+-Ender IO magnets now work when in your main inventory and not just when in the hotbar or baubles slot.
+-EnderStorage's ender chests now sound like vanilla ender chests instead of regular chests.
+-The Scanner should now detect certus quartz and charged certus quartz ores.
+-Disabled certus quartz and charged certus quartz world gen (is managed by CoFH World).
+-Disabled generic death messages for named entities (stops mob farms from spamming the chat).
+-Allowed flight in the Deep Dark.
+-Lowered the total number of chunks a single chunk loader will keep loaded.
+-Set the chunk loader time-out to 1 week (real time).
+-Disabled AE2 items.csv generation.
+-Increased world height of the Minig Dimension so that ores spawning higher in the world don't get missed during worldgen.
+-Disabled oil generation in the Minig Dimension.
+-Removed all Tesla Core Lib gear types (except diamond) from the registeredGearTypes option.
+-Stop Just Enough Resources from profiling EVERY dimension (will hopefully help performance and lower memory use).
+-Disabled WheelTweak in the Mouse Tweaks config (confilcted with Item Scroller).
+-Made more kinds of glass work with Galacticraft's Oxygen Sealer.
+-Regenerated a few configs.
+
+MODS:
+Added:
+-Redstone Repository Revolved 1.4.0 (Because who doesn't like OP tools and armor?)
+-TBone 1.3.0 (Now required by MetalChests)
+Removed:
+-Familiar Fauna (No longer maintained)
+Updated:
+-/dank/null (1.4.43 > 1.5.71)
+-AE2 Wireless Terminal Library (1.0.6 > 1.0.30)
+-Better Animals Plus (6.0.1 > 6.0.3)
+-Bookshelf (2.3.581 > 2.3.584)
+-CraftTweaker (4.1.18 > 4.1.19)
+-ExtraPlanets (0.5.2 > 0.5.3)
+-Extreme Reactors (0.4.5.66 > 0.4.5.67)
+-FTB Library (5.4.3.103 > 5.4.3.117)
+-GalacticraftCore (4.0.2.210 > 4.0.2.211)
+-GalacticraftPlanets (4.0.2.210 > 4.0.2.211)
+-Just Enough Items (JEI) (4.15.0.280 > 4.15.0.281)
+-Just Enough Resources (JER) (0.9.1.56 > 0.9.2.58)
+-LibrarianLib (4.15 > 4.19.2)
+-Mantle (1.3.3.49 > 1.3.3.55)
+-McDoodleCore (4.0.2.210 > 4.0.2.211)
+-Mekanism (9.7.7.378 > 9.7.8.379)
+-Mekanism Generators (9.7.7.378 > 9.7.8.379)
+-Mekanism Tools (9.7.7.378 > 9.7.8.379)
+-MetalChests (5.0.2 > 5.1.2)
+-p455w0rd's Library (2.1.44 > 2.2.151)
+-Phosphor (0.2.2 > 0.2.4)
+-PneumaticCraft: Repressurized (0.11.1-361 > 0.11.3-366)
+-RandomPatches (1.16.0.0 > 1.16.1.0)
+-Shadowfacts' Forgelin (1.8.2 > 1.8.3)
+-Wireless Crafting Terminal (3.11.88 > 3.12.93)
+-Xaero's Minimap (1.17.1 > 1.17.2)
+
+SERVER:
+Initial Server Pack release.
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.4.0  (06-09-2019)
+-------------------------------------
+COMMENTS:
+This is a very large update to the pack that adds quite a few mods and contains a good number of config and script changes to help provide a bit more balance to the pack. A few mods have also been removed in order to help performance and keep the total number of mods closer to 200. 
+
+While not required, I RECOMMEND a world restart due to the large number of changes to the pack in this update. If you choose not to restart your world, MAKE A FULL BACKUP and then you will need to RESET ALL GALACTICRAFT/SPACE DIMENSIONS (by deleting the relevant folders in your world folder). If you don't reset the space dimensions, you risk crashing when launching a rocket. 
+
+CHANGES:
+-Increased fuel consuption of rockets
+-Tweaked dungeon boss difficulty on other planets/moons
+-Lowered the amount of radiation reduced by anti-rad drinks (a decontamination unit is now the most effective way to reduce radiation)
+-Added recipes to allow for upgrading of space suits to next tier
+-Prevented Earth animals from spawning on Venus and other planets
+-Disabled ability to fly in space dimensions (you'll have to use jetpacks instead!)
+-Generate the Galacticraft dungeon locater as possible loot on Mars
+-Prevented extra planet-specific ores from being collected by the Void Miner
+-Enabled vanilla tree growth instead of big trees from Recurrent Complex (was causing lag issues with tree farms)
+-Disabled AE2 Channels
+-Enabled use of the older AE2 wireless Infinity Mechanic
+-Hid more useless stuff in JEI
+-Regenerated several configs
+
+MODS:
+Added:
+-AE2 Stuff 0.7.0.4
+-AE2 Wireless Terminal Library 1.0.6
+-Applied Energistics 2 rv6-stable-6
+-Galacticraft Tweaker 1.0.3
+-More Planets 2.1.5
+-More Planets Extras 1.0
+-Scannable 1.6.3.24
+-SteveKunG's Lib 1.0.5
+-Wireless Crafting Terminal 3.11.88
+Removed:
+-Bookworm
+-iChunUtil
+-Morph
+-Natural Fauna 
+-Simple Mob Radar
+-ZAWA
+Updated:
+-AnimalNet (1.11 > 1.12)
+-AromaBackup (3.0.0.0.b117 > 3.0.0.0.b118)
+-Astral Sorcery (1.10.18 > 1.10.19)
+-Biomes O' Plenty (7.0.1.2439 > 7.0.1.2441)
+-Bookshelf (2.3.577 > 2.3.581)
+-CoFH Core (4.6.2.25 > 4.6.3.27)
+-CoFH World (1.3.0.6 > 1.3.1.7)
+-Construct's Armory (1.2.3.4 > 1.2.4)
+-Factory Tech (1.6.6e > 1.6.7)
+-Fast Workbench (1.7.1 > 1.7.2)
+-FTB Library (5.4.1.99 > 5.4.3.103)
+-FTB Utilities (5.4.0.96 > 5.4.0.97)
+-Just Enough Items (4.15.0.279 > 4.15.0.280)
+-Just Enough Resources (0.9.0.53 > 0.9.1.56)
+-McJtyLib (3.5.2 > 3.5.3)
+-Mekanism (9.7.5.376 > 9.7.7.378)
+-Mekanism Generators (9.7.5.376 > 9.7.7.378)
+-Mekanism Tools (9.7.5.376 > 9.7.7.378)
+-MetalChests (4.6.9 > 5.0.2)
+-Pam's HarvestCraft (1.12.2zc > 1.12.2zd)
+-PneumaticCraft: Repressurized (0.10.5-346 > 0.11.1-361)
+-RandomPatches (1.15.1.0 > 1.16.0.0)
+-Reborn Storage (3.3.3.83 > 3.3.4.85)
+-Redstone Arsenal (2.6.2.17 > 2.6.3.18)
+-Thermal Cultivation (0.3.2.11 > 0.3.3.12)
+-Thermal Dynamics (2.5.4.18 > 2.5.5.21)
+-Thermal Expansion (5.5.3.41 > 5.5.4.43)
+-Thermal Foundation (2.6.2.26 > 2.6.3.27)
+-Thermal Innovation (0.3.2.11 > 0.3.3.12)
+-Xaero's Minimap (1.16.8 > 1.17.1)
+-Xaero's World Map (1.3.4.1 > 1.3.5)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.3.1 (05-24-2019)
+-------------------------------------
+COMMENTS:
+Hotfix update to fix two pressing issues with the previous release.
+
+CHANGES:
+-Disabled the custom galaxy map from Extra Planets (is currently incompatible with Planet Progression)
+-Made Anti-Rads a (lot) less complicated to obtain
+
+MODS:
+-
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.3.0 (05-24-2019)
+-------------------------------------
+COMMENTS:
+Routine pack update that updates several mods and fixes a few minor issues.
+
+CHANGES:
+-Added Pam's HarvestCraft support to the Immersive Engineering fermenter and squeezer
+-Fixed error in CoFH World when generating yellorite ore
+-Hid some items from JEI (modded items with no recipes or uses, particles, etc.)
+
+MODS:
+Added:
+-FastFlyBlockBreaking 1.1
+-Item Scroller 0.12.0
+Updated:
+-Actually Additions (r147 > r148)
+-AnimalNet (1.10.1 > 1.11)
+-Astral Sorcery (1.10.17 > 1.10.18)
+-Biomes O' Plenty (7.0.1.2438 > 7.0.1.2439)
+-CraftTweaker (4.1.17 > 4.1.18)
+-Just Enough Items (4.15.0.278 > 4.15.0.279)
+-Mekanism (9.7.4.375 > 9.7.5.376)
+-Mekanism Generators (9.7.4.375 > 9.7.5.376)
+-Mekanism Tools (9.7.4.375 > 9.7.5.376)
+-MetalChests (4.0.1 > 4.6.9)
+-RandomPatches (1.15.0.2 > 1.15.1.0)
+-Reborn Storage (3.3.2.79 > 3.3.3.83)
+-Slide'em ALL (0.94.1 > 0.95)
+-ThermalLogistics (0.2-23 > 0.2-25)
+-Xaero's Minimap (1.16.7 > 1.16.8)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.2.0 (05-14-2019)
+-------------------------------------
+COMMENTS:
+Star Tech 1.2.0 updates a good handful of the mods included in the pack and makes a few tweaks here and there.
+
+CHANGES:
+-Replaced the Craftable Name tag mod with a custom CrafTweaker recipe
+-Adjust Angel Ring recipe - no more ghast hunting!
+-Added warning tooltip to Extra Utilities' golden lasso
+-Remove flax from the OreDict
+-No longer display tank information twice with TOP
+
+MODS:
+Added:
+-AnimalNet 1.10.1
+-RFTools Power 1.2.0
+Removed:
+-Craftable Name tag 1.0.0 (replaced with CraftTweaker recipe)
+Updated:
+-Actually Additions (r146 > r147)
+-Better Animals Plus (5.0.2 > 6.0.1)
+-Biomes O' Plenty (7.0.1.2427 > 7.0.1.2438)
+-Comforts (1.4.1.1 > 1.4.1.2)
+-Dark Utilities (1.8.225 > 1.8.226)
+-Ender IO (5.0.43 > 5.0.44)
+-Ender IO Endergy (5.0.43 > 5.0.44)
+-Ender IO Zoo (5.0.43 > 5.0.44)
+-Extreme Reactors (0.4.5.65 > 0.4.5.66)
+-FastFurnace (1.2.3 > 1.3.1)
+-FastWorkbench (1.6.1 > 1.7.1)
+-FTB Library (5.4.1.96 > 5.4.1.99)
+-FTB Utilities (5.4.0.94 > 5.4.0.96)
+-LLibrary (1.7.18 > 1.7.19)
+-McJtyLib (3.1.1 > 3.5.2)
+-MeeCreeps (1.2.3 > 1.3.1)
+-Mekanism (9.7.2.373 > 9.7.4.375)
+-Mekanism Generators (9.7.2.373 > 9.7.4.375)
+-Mekanism Tools (9.7.2.373 > 9.7.4.375)
+-Not Enough Wands (1.7.3 > 1.8.1)
+-OpenBlocks Elevator 1.3.9 > 1.3.10)
+-Placebo (1.5.1 > 1.6.0)
+-PneumaticCraft: Repressurized (0.10.3-337 > 0.10.5-346)
+-RFTools (7.61 > 7.71)
+-RFTools Control (1.9.3 > 2.0.2)
+-Thermal Logistics (0.2-22 > 0.2-23)
+-Toast Control (1.8.0 > 1.8.1)
+-Xaero's Minimap (1.16.4 > 1.16.7)
+-Xnet (1.7.6 > 1.8.1)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.1.0 (04-23-2019)
+-------------------------------------
+COMMENTS:
+First stable release.
+
+CHANGES:
+-Updated Minecraft FORGE to 14.23.5.2836
+-Replaced Mekanica with Mekanism 9.7
+-Regenerated configs for several mods
+-Disabled FTBUtilities and Extra Utilities 2 chunkloaders - use Chicken Chunks
+-Fixed the broken recipe for advanced pressure valves from Advanced Generators
+-Made the Mining Dimension less peaceful
+-Increased Refined Storage controller capacity (should prevent lag with large RS systems)
+-Hid Refined Storage covers in JEI
+-Fixed an issue between The One Probe and Storage Drawers
+-Prevented slime islands from generating in dimensions other than the Overworld
+-Prevented dragons from spawning in dimensions other than the Overworld
+-Prevented beehives from generating in space
+-Disabled most oregen from mods as it is now being handled by CoFH World
+
+MODS:
+Downgraded:
+-/dank/null (1.4.46 > 1.4.43)
+Added:
+-Clumps 3.1.2
+-Mekanism 9.7.2.373
+-Mekanism Generators 9.7.2.373
+-Mekanism Tools 9.7.2.373
+-Redstone Gauges and Switches 1.1.4
+Removed:
+-Mekanica 1.2.0
+-Mekanica: Generators 1.2.0
+-Mekanica: Tools 1.2.0
+Updated:
+-Astral Sorcery (1.10.12 > 1.10.17)
+-Better Animals Plus (5.0.1 > 5.0.2)
+-Biomes O' Plenty (7.0.1.2425 > 7.0.1.2427)
+-Botania (1.10-360 > 1.10-361)
+-Construct's Armory (1.2.3 > 1.2.3.4)
+-EnderCore (0.5.52 > 0.5.57)
+-FastFurnace (1.2.2 > 1.2.3)
+-FTB Library (5.4.1.93 > 5.4.1.96)
+-FTB Utilities (5.4.0.90 > 5.4.0.94)
+-Gas Conduits (1.1.0 > 1.2.1)
+-Industrial Forgoing (1.12.12-235 > 1.12.12-236)
+-Just Enough Items (4.15.0.269 > 4.15.0.278)
+-Matter Overdrive: Legacy Edition (0.7.0.16 > 0.7.1.0)
+-OpenBlocks Elevator (1.3.8 > 1.3.9)
+-p455w0rd's Library (2.0.36 > 2.1.44)
+-Pam's HarvestCraft (1.12.2zb > 1.12.2zc)
+-Phosphor (0.2.0 > 0.2.2)
+-Planet Progression (0.3.2 > 0.3.5)
+-PneumaticCraft: Repressurized (0.9.4.1 > 0.10.3-337)
+-Reborn Core (3.13.10.441 > 3.13.12.447)
+-Simply Backpacks (1.2.0 > 1.2.2)
+-ThermalLogistics (0.2-17 > 0.2-22)
+-TOP Addons (1.10.1 > 1.11.0)
+-Xaero's Minimap (1.16.2 > 1.16.4)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.0.4 (04-22-2019)
+-------------------------------------
+COMMENTS:
+Initial release on Curseforge.
+
+CHANGES:
+-Now using all worldgen from COFH World by default
+
+MODS:
+Updated:
+-Cooking for Blockheads (6.4.69 > 6.4.70)
+-CraftTweaker (4.1.16 > 4.1.17)
+-ExtraPlanets (0.5.0 > 0.5.2)
+-Factory Tech (1.6.6d > 1.6.6e)
+-FoamFix (0.10.3 > 0.10.5)
+-Industrial Foregoing (1.12.11-234 > 1.12.11-235)
+-Just Enough Resources (0.9.0.52 > 0.9.0.53)
+-Mantle (1.3.3.42 > 1.3.3.49)
+-Mekanica (1.2.0b2 > 1.2.0)
+-Mekanica: Generators (1.2.0b2 > 1.2.0)
+-Mekanica: Tools (1.2.0b2 > 1.2.0)
+-ModTweaker (4.0.16 > 4.0.17)
+-NotEnoughIDs (1.5.4.3 > 1.5.4.4)
+-Phosphor (0.1.7.1 > 0.2.0)
+-Reborn Core (3.13.9.433 > 3.13.10.441)
+-Tinkers Construct (2.12.0.115 > 2.12.0.135)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.0.3
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Reworked CraftTweaker scripts
+-Disabled FTBUtilities chunkloading
+-Slightly tweaked Galacticraft config
+-Wands from Not Enough Wands now require RF to use
+-Disabled uncrafting from Twilight Forest
+-Tweaked appearance of The One Probe display
+-Added Ice and Fire's silver ore to the Ore Dictionary
+-Hid some duplicate items and blocks in JEI
+-Tweaked world oregen
+-Tweaked mob spawning
+
+MODS:
+-
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.0.2
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Added default options for Xaero's Minimap
+
+MODS:
+Added:
+-FTB Library 5.4.1.93
+-FTB Utilities 5.4.0.90
+-Inventory Pets 2.0.1
+Removed:
+-Smart Crafting Table
+Updated:
+-Ice and Fire (1.7.0 > 1.7.1)
+-Phosphor (0.1.6 > 0.1.7.1)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.0.1
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Unified some ores
+-Tweaked ore worldgen
+-Teaked Ore Dictionary config
+
+MODS:
+Added:
+-Special Mobs 1.0.2
+Updated:
+-Dark Utilities (1.8.224 > 1.8.225)
+-Phosphor (0.1.5 > 0.1.6)
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 1.0.0
+-------------------------------------
+Initial Release
+
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
