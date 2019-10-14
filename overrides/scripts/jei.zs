@@ -39,6 +39,8 @@ Remove items
 JEI.removeAndHide(<forestry:resources:1>); /* Copper Ore */
 JEI.removeAndHide(<forestry:resources:2>); /* Tin Ore */
 JEI.removeAndHide(<iceandfire:silver_ore>); /* Silver Ore */
+JEI.removeAndHide(<mekanism:oreblock:1>); /* Copper Ore */
+JEI.removeAndHide(<mekanism:oreblock:2>); /* Tin Ore */
 JEI.removeAndHide(<bigreactors:oreanglesite>); /* Anglesite Ore */
 JEI.removeAndHide(<bigreactors:orebenitoite>); /* Benitoite Ore */
 

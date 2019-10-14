@@ -1,6 +1,6 @@
 [
   {
-    "item" : "oreClathrateOilSand",
+    "item" : "thermalfoundation:ore_fluid:0",
     "color" : 15,
     "rarity" : [
       {
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "item" : "oreClathrateOilShale",
+    "item" : "thermalfoundation:ore_fluid:1",
     "color" : 15,
     "rarity" : [
       {
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "item" : "oreClathrateRedstone",
+    "item" : "thermalfoundation:ore_fluid:2",
     "color" : 14,
     "rarity" : [
       {
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "item" : "oreClathrateGlowstone",
+    "item" : "thermalfoundation:ore_fluid:3",
     "color" : 4,
     "rarity" : [
       {
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "item" : "oreClathrateEnder",
+    "item" : "thermalfoundation:ore_fluid:4",
     "color" : 13,
     "rarity" : [
       {

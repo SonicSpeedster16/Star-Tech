@@ -68,6 +68,10 @@ furnace.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:charged
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:1>);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>);
 
+# Add Obsidian compat to the Actually Additions and Extra Utilities 2 Crusher
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:770> * 4, <minecraft:obsidian>);
+mods.extrautils2.Crusher.add(<thermalfoundation:material:770> * 4, <minecraft:obsidian>);
+
 # Add Fluix Crystal compat to the Actually Additions and Extra Utilities 2 Crusher
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
 mods.extrautils2.Crusher.add(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
@@ -127,6 +131,12 @@ mods.actuallyadditions.Crusher.addRecipe(<netherex:frost_powder> * 4, <netherex:
 mods.extrautils2.Crusher.add(<netherex:frost_powder> * 4, <netherex:frost_rod>);
 mods.appliedenergistics2.Grinder.addRecipe(<netherex:frost_powder> * 4, <netherex:frost_rod>, 4);
 mods.mekanism.enrichment.addRecipe(<netherex:frost_rod>, <netherex:frost_powder> * 4);
+
+# Add additional processing recipes for Tinkers' ores
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:0>, <enderio:item_material:31> * 2); /* Cobalt */
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore:0>, 4000); /* Cobalt */
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2); /* Ardite */
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 4000); /* Ardite */
 
 # Add additional processing recipes for Matter Overdrive ores
 mods.mekanism.smelter.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_ingot>); /* Tritanium Ore */
@@ -189,8 +199,6 @@ mods.mekanism.enrichment.addRecipe(<extraplanets:kepler22b:9>, <extraplanets:tie
 mods.mekanism.enrichment.addRecipe(<extraplanets:kepler22b:10>, <extraplanets:tier11_items:4> * 2); /* Green Diamond */
 
 # Add compat for additional ores/items to Mekanism processing machines
-mods.mekanism.enrichment.addRecipe(<tconstruct:ore:0>, <enderio:item_material:31> * 2); /* Tinkers Cobalt */
-mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2); /* Tinkers Ardite */
 mods.mekanism.enrichment.addRecipe(<moreplanets:infected_emerald_ore>, <minecraft:emerald> * 2); /* Infected Emerald Ore */
 mods.mekanism.smelter.addRecipe(<astralsorcery:blockcustomore:1>, <astralsorcery:itemcraftingcomponent:1>); /* Starmetal Ore */
 mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>); /* StarDust */

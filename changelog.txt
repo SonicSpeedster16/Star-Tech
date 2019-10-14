@@ -1,3 +1,26 @@
+Star Tech 2.3.1  (10-14-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Fixed Industrial Foregoing's Laser Drill to collect all ores (for real this time!).
+-Fixed the Actually Additions and Extra Utilities 2 Crushers from being unable to crush Obsidian.
+-Fixed the Pulverizer so it can be used to also double Cobalt and Ardite ores.
+-Void Miners no longer collect Charged Certus Quartz (as it should be more rare to obtain aside from manual charging).
+-Enderminies will no longer spawn on Cursed Earth.
+
+MODS:
+Removed:
+-
+Added:
+-
+Updated:
+-
+
+SERVER:
+-
+
+
 Star Tech 2.3.0  (10-10-2019)
 -------------------------------------
 COMMENTS:

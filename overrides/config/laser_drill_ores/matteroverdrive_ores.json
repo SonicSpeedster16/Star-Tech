@@ -1,6 +1,6 @@
 [
   {
-    "item" : "oreDilithium",
+    "item" : "matteroverdrive:dilithium_ore",
     "color" : 3,
     "rarity" : [
       {
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "item" : "oreTritanium",
+    "item" : "matteroverdrive:tritanium_ore",
     "color" : 7,
     "rarity" : [
       {
