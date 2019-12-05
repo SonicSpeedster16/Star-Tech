@@ -19,7 +19,7 @@
     "color": 3228222,
     "type": "DEFAULT",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -41,7 +41,7 @@
     "color": 12895428,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -63,7 +63,7 @@
     "color": 8674606,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -85,7 +85,7 @@
     "color": 5592575,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -107,7 +107,7 @@
     "color": 11141290,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -129,7 +129,7 @@
     "color": 16777215,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -151,7 +151,7 @@
     "color": 16777215,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -173,7 +173,7 @@
     "color": 8005929,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -195,7 +195,7 @@
     "color": 5592405,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -217,7 +217,7 @@
     "color": 5592575,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -239,7 +239,7 @@
     "color": 43690,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -261,7 +261,7 @@
     "color": 14809072,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -283,7 +283,7 @@
     "color": 3752497,
     "type": "DEFAULT",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -305,7 +305,7 @@
     "color": 43520,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -327,7 +327,7 @@
     "color": 3883584,
     "type": "DEFAULT",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -349,7 +349,7 @@
     "color": 16755200,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -371,7 +371,7 @@
     "color": 11141120,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -393,7 +393,7 @@
     "color": 170,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -415,7 +415,7 @@
     "color": 16733525,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -437,7 +437,7 @@
     "color": 43520,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   },
   {
     "coreMaterialStats": {
@@ -459,6 +459,6 @@
     "color": 11184810,
     "type": "METAL",
     "castable": false,
-    "craftable": false
+    "craftable": true
   }
 ]

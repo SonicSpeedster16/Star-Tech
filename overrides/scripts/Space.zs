@@ -43,9 +43,9 @@ recipes.addShaped("Tier 1 Battery_oredict",
 recipes.remove(<extraplanets:electric_parts:1>);
 recipes.addShaped("Tier 2 Battery_custom",
 <extraplanets:electric_parts:1>, [
+  [<ore:compressedSteel>, <ore:compressedDesh>, <ore:compressedSteel>],
   [<ore:compressedDesh>, <extraplanets:electric_parts>, <ore:compressedDesh>],
-  [<extraplanets:electric_parts>, <ore:compressedDesh>, <extraplanets:electric_parts>],
-  [<ore:compressedDesh>, <extraplanets:electric_parts>, <ore:compressedDesh>]
+  [<ore:compressedSteel>, <ore:compressedDesh>, <ore:compressedSteel>]
 ]);
 
 # Modify the Powered Launch Pad recipe
@@ -180,7 +180,7 @@ recipes.addShaped("Tier 4 Space Suit Gravity Boots_upgrade",
 # Add custom recipe for the new (BETA) Galacticraft Laser Turret
 recipes.addShaped("Laser Turret_custom",
 <galacticraftplanets:laser_turret>, [
-  [null, <industrialforegoing:laser_lens_inverted:14>, null],
+  [null, <galacticraftplanets:item_basic_asteroids:8>, null],
   [<ore:compressedSteel>, <extraplanets:nickel_battery>, <ore:compressedSteel>],
   [<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]
 ]);

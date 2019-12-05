@@ -203,7 +203,7 @@ mods.mekanism.crusher.addRecipe(<harvestcraft:oatsitem>, <harvestcraft:flouritem
 The Mighty Pam
 ~~~~~~~~~~~~~*/
 
-# Readd missing Salt recipe using Mek's Salt instead (and double it)
+# Re-add the missing Salt recipe using Mek's Salt (and double it)
 recipes.addShaped("Craftable Salt",
 <mekanism:salt> * 2, [
   [<ore:toolPot>, <ore:listAllwater>, null]
@@ -213,7 +213,23 @@ recipes.addShaped("Craftable Salt",
 recipes.addShaped("Berry Vinaigrette Salad_oredict",
 <harvestcraft:berryvinaigrettesaladitem>, [
   [<ore:toolCuttingboard>, <ore:listAllberry>, null],
-  [<ore:listAllberry>, <ore:cropLettuce>, null],
+  [<ore:foodSaladdressing>, <ore:listAllgreenveggie>, null],
+  [null, null, null]
+]);
+
+# Add missing recipe for Garlic Steak
+recipes.addShaped("Garlic Steak_oredict",
+<harvestcraft:garlicsteakitem>, [
+  [<ore:toolBakeware>, <ore:cropGarlic>, null],
+  [<ore:foodOliveoil>, <ore:listAllbeefraw>, null],
+  [null, null, null]
+]);
+
+# Add missing recipe for Lychee Tea
+recipes.addShaped("Lychee Tea_oredict",
+<harvestcraft:lycheeteaitem>, [
+  [<ore:toolPot>, <ore:cropTea>, null],
+  [<ore:listAllwater>, <harvestcraft:lycheeitem>, null],
   [null, null, null]
 ]);
 
@@ -232,8 +248,41 @@ recipes.addShapeless("Tomatillo to Tomatillo Seed",
 # Pam, how does chopping vegetables produce 3 slices of Pizza?
 recipes.removeShapeless(<harvestcraft:pizzasliceitem>, [<harvestcraft:cuttingboarditem>, <ore:listAllgreenveggie>]);
 
-# Why can Pam's Cotton be crafted to itself?
+# Why can Cotton be crafted to itself?
 recipes.remove(<harvestcraft:cottonitem>);
+
+# Remove extra/duplicate recipes
+recipes.removeByRecipeName("harvestcraft:sugar_foodhoneydrop");
+
+# Fix Gourmet Pattys to use the correct Mustard Seed*s*
+recipes.remove(<harvestcraft:gourmetbeefpattyitem>);
+recipes.addShaped("Gourmet Beef Patty_custom",
+<harvestcraft:gourmetbeefpattyitem>, [
+  [<ore:toolMixingbowl>, <ore:foodGroundbeef>, <ore:foodBlackpepper>],
+  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
+  [null, null, null]
+]);
+recipes.remove(<harvestcraft:gourmetmuttonpattyitem>);
+recipes.addShaped("Gourmet Mutton Patty_custom",
+<harvestcraft:gourmetmuttonpattyitem>, [
+  [<ore:toolMixingbowl>, <harvestcraft:groundmuttonitem>, <ore:foodBlackpepper>],
+  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
+  [null, null, null]
+]);
+recipes.remove(<harvestcraft:gourmetporkpattyitem>);
+recipes.addShaped("Gourmet Pork Patty_custom",
+<harvestcraft:gourmetporkpattyitem>, [
+  [<ore:toolMixingbowl>, <harvestcraft:groundporkitem>, <ore:foodBlackpepper>],
+  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
+  [null, null, null]
+]);
+recipes.remove(<harvestcraft:gourmetvenisonpattyitem>);
+recipes.addShaped("Gourmet Venison Patty_custom",
+<harvestcraft:gourmetvenisonpattyitem>, [
+  [<ore:toolMixingbowl>, <harvestcraft:groundvenisonitem>, <ore:foodBlackpepper>],
+  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
+  [null, null, null]
+]);
 
 # OreDict some Pam's recipes
 recipes.remove(<harvestcraft:strawberryjuiceitem>);
@@ -307,36 +356,6 @@ recipes.addShaped("Strawberry Cupcake_oredict",
 <harvestcraft:strawberrycupcakeitem>, [
   [<ore:toolBakeware>, <ore:foodBatter>, <ore:listAllsugar>],
   [<ore:listAllheavycream>, <ore:foodButter>, <ore:cropStrawberry>],
-  [null, null, null]
-]);
-
-# Fix Gourmet Pattys to use the correct Mustard Seed*s*
-recipes.remove(<harvestcraft:gourmetbeefpattyitem>);
-recipes.addShaped("Gourmet Beef Patty_custom",
-<harvestcraft:gourmetbeefpattyitem>, [
-  [<ore:toolMixingbowl>, <ore:foodGroundbeef>, <ore:foodBlackpepper>],
-  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
-  [null, null, null]
-]);
-recipes.remove(<harvestcraft:gourmetmuttonpattyitem>);
-recipes.addShaped("Gourmet Mutton Patty_custom",
-<harvestcraft:gourmetmuttonpattyitem>, [
-  [<ore:toolMixingbowl>, <harvestcraft:groundmuttonitem>, <ore:foodBlackpepper>],
-  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
-  [null, null, null]
-]);
-recipes.remove(<harvestcraft:gourmetporkpattyitem>);
-recipes.addShaped("Gourmet Pork Patty_custom",
-<harvestcraft:gourmetporkpattyitem>, [
-  [<ore:toolMixingbowl>, <harvestcraft:groundporkitem>, <ore:foodBlackpepper>],
-  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
-  [null, null, null]
-]);
-recipes.remove(<harvestcraft:gourmetvenisonpattyitem>);
-recipes.addShaped("Gourmet Venison Patty_custom",
-<harvestcraft:gourmetvenisonpattyitem>, [
-  [<ore:toolMixingbowl>, <harvestcraft:groundvenisonitem>, <ore:foodBlackpepper>],
-  [<harvestcraft:spiceleafitem>, <harvestcraft:mustardseedsitem>, <ore:itemSalt>],
   [null, null, null]
 ]);
 

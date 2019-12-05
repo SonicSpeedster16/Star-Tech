@@ -15,6 +15,11 @@ recipes.removeShapeless(<actuallyadditions:item_misc:5>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 2, <actuallyadditions:block_misc:3>);
 mods.extrautils2.Crusher.add(<actuallyadditions:item_dust:7> * 1, <actuallyadditions:item_misc:5>);
 
+# Unify machine outputs of Sugar Cane to Sugar
+mods.extrautils2.Crusher.add(<minecraft:sugar> * 3, <minecraft:reeds>);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:sugar> * 3, <minecraft:reeds>, 2000);
+mods.appliedenergistics2.Grinder.addRecipe(<minecraft:sugar>, <minecraft:reeds>, 3);
+
 # Unify Silicon
 mods.mekanism.smelter.removeRecipe(<minecraft:quartz>);
 mods.mekanism.smelter.addRecipe(<minecraft:quartz>, <galacticraftcore:basic_item:2>);

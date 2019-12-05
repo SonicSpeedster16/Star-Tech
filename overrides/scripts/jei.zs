@@ -16,9 +16,6 @@ Custom Tooltips
 <matteroverdrive:microwave>.addTooltip(format.yellow("Decorative only"));
 <conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
-<thermalfoundation:material:771>.addTooltip(format.yellow("Can be used in a furnace as fuel")); /* Sulfur */
-<thermalfoundation:material:832>.addTooltip(format.yellow("Can be used in a furnace as fuel")); /* Rosin */
-<minecraft:fire_charge>.addTooltip(format.yellow("Can be used in a furnace as fuel"));
 
 # Locational tips
 <galacticraftcore:dungeonfinder>.addTooltip(format.aqua("Can be obtained in Survival Mode from Tier 2 Treasure Chests on Mars"));
@@ -29,7 +26,7 @@ Custom Tooltips
 # Warnings
 <logisticspipes:sign_creator>.addTooltip(format.red("WARNING: May cause severe FPS lag!"));
 <extrautils2:goldenlasso>.addTooltip(format.red("WARNING: Mobs may disappear when released! Recommend you use Animal Nets or Ender IO soul vials instead."));
-<moreplanets:ion_cannon_schematic>.addTooltip(format.red("NOTE: The ION Cannon is not yet implemented, making this schematic unusable."));
+<moreplanets:ion_cannon_schematic>.addTooltip(format.red("NOTE: The ION Cannon is not yet implemented, making this schematic useless."));
 
 /* ~~~~~~~~~
 Remove items
@@ -73,7 +70,6 @@ JEI.removeAndHide(<harvestcraft:saltitem>); /* Removed in favor of Mekanism Salt
 JEI.removeAndHide(<actuallyadditions:item_food:20>); /* Removed in favor of Tinkers Bacon Jerky */
 JEI.removeAndHide(<actuallyadditions:item_food:15>); /* Baguette */
 JEI.removeAndHide(<actuallyadditions:item_food:18>); /* Doughnut */
-
 
 # Remove items that are exploitable or are known to cause crashes
 JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Exploitable */

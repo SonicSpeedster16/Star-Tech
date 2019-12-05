@@ -72,7 +72,7 @@ recipes.removeByRecipeName("extrautils2:moon_stone_adv");
 recipes.removeByRecipeName("extrautils2:stable_unstable_ingot");
 recipes.removeByRecipeName("extrautils2:unstable_unpack");
 
-# Remove shortcut/fallback/alternate recipes that are not needed
+# Remove duplicate/shortcut/fallback/alternate recipes that are not needed
 recipes.removeByRecipeName("tconstruct:gadgets/slimesling_fallback");
 recipes.removeByRecipeName("tconstruct:gadgets/slime_boots_fallback");
 recipes.removeByRecipeName("inventorypets:nugget_diamond_alt");
@@ -82,7 +82,9 @@ recipes.removeByRecipeName("inventorypets:nugget_ender_alt");
 recipes.removeByRecipeName("enderio:capacitor_crystalline_alt");
 recipes.removeByRecipeName("extrautils2:shortcut_stick");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
-recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.removeByRecipeName("enderio:tweak_stick_from_wood");
+recipes.removeByRecipeName("moreplanets:sugar_from_infected_sugar_cane");
+recipes.removeByRecipeName("tconstruct:common/slime/green/slimeball_from_block");
 // Chests
 recipes.removeByRecipeName("extrautils2:shortcut_chest");
 recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
@@ -144,6 +146,15 @@ recipes.addShaped("LightningCraft Guidebook",
   [<lightningcraft:golf_club>, <minecraft:book>, null]
 ]);
 
+# Tweak the Infinity Booster Card recipe to require Nether Stars
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.addShaped("Infinity_Booster_Card_custom",
+<ae2wtlib:infinity_booster_card>, [
+  [<appliedenergistics2:material:48>, null, <appliedenergistics2:material:48>],
+  [null, <appliedenergistics2:material:41>, null],
+  [<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>]
+]);
+
 # Add recipe for More Planets Tinted Glass
 recipes.addShaped("Tinted Glass_custom",
 <moreplanets:tinted_glass> * 8, [
@@ -152,6 +163,14 @@ recipes.addShaped("Tinted Glass_custom",
   [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
 ]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<moreplanets:tinted_glass>, <minecraft:glass>, <moreplanets:setrorium_shard>, 4000);
+
+# Add recipe for Nether Brick Gate
+recipes.addShaped("Nether Brick Gate",
+<netherex:nether_brick_fence_gate> * 6, [
+  [null, null, null],
+  [<minecraft:stone_slab:6>, <minecraft:nether_brick>, <minecraft:stone_slab:6>],
+  [<minecraft:stone_slab:6>, <minecraft:nether_brick>, <minecraft:stone_slab:6>]
+]);
 
 # Add recipe for Logistics Pipes RF Power Supplier Upgrade
 recipes.addShaped("RF Power Supplier",
@@ -244,7 +263,6 @@ recipes.addShaped("Beetroot to Beetroot Seeds",
 mods.tconstruct.Melting.addRecipe(<liquid:alubrass> * 144, <tconstruct:cast>);
 
 # Bone Blocks should be grindable back into Bonemeal
-recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>);
 mods.extrautils2.Crusher.add(<minecraft:dye:15> * 9, <minecraft:bone_block>);
 mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 2000);

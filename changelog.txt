@@ -1,3 +1,82 @@
+Star Tech 2.4.0  (11-25-2019)
+-------------------------------------
+COMMENTS:
+
+CHANGES:
+-Restored default behavior of the Ender IO magnet (will only work when in the hotbar or Baubles slot).
+-The Auto Chisel now requires power to operate.
+-All types of Glass and Glass Panes (with the exception of Ineffable Glass) should now work with the Oxygen Sealer.
+-Dragons can no longer break Bedrock.
+-Dragons can no longer be captured in Soul Vials.
+-Dragons can now spawn in the Deep Dark in addition to the Overwold.
+-Increased stats of Dragonsteel armor (to be more consistent with other end-game armors).
+-Increased spawn rates for Cockatrices and Trolls.
+-Fixed a dup bug involving the Tinkers' Crafting Station.
+-Stopped Ender IO from re-adding the recipe book button.
+-String can now be compressed into Wool in a Compacting Drawer.
+-Harvestcraft gardens now spread more slowly.
+-Enderman no longer drop Infinity Booster Cards on death.
+-Infinity Booster Cards now require Nether Stars to craft.
+-Made Mouse Tweaks more compatable with ME Terminals.
+-Void Miners and Laser Drills can once again gather Charged Certus Quartz Ore (very low chance).
+-Added a recipe for Nether Brick Fence.
+-Tweaked a few recipes for consistency.
+-Removed a few item tooltips that aren't needed (JEI does a plenty good job of displaying item uses).
+-By default backups are now performed every 45 minutes instead of every hour.
+-Restored default number of backups saved (30).
+-Regenerated some config files.
+
+MODS:
+Removed:
+-Colorful Sheep (functionality now provided by RandomTweaks)
+-Bad Wither, No Cookie (functionality now provided by RandomTweaks)
+-No Recipe Book (functionality already provided by FastWorkbench)
+-Naturally Charged Creepers (for causing too much destruction)
+Added:
+-Just Enough Energistics (JEE) 1.0.8
+-RandomTweaks 2.7.1.0
+Updated:
+-/Dank/Null (1.6.80 > 1.7.89)
+-Actually Additions (r150 > r151)
+-AE2 Wireless Terminal Library (1.0.30 > 1.0.34)
+-Armory Expansion (1.4.0 > 1.4.1)
+-Binnie's Mods (2.5.1.188 > 2.5.1.196)
+-Biomes O' Plenty (7.0.1.2441 > 7.0.1.2443)
+-Building Gadgets (2.7.3 > 2.7.4)
+-Chisel (0.2.1.35 > 1.0.1.44)
+-ConnectedTexturesMod (0.3.3.22 > 1.0.0.29)
+-Construct's Armory (1.2.4 > 1.2.5.1)
+-Dark Utilities (1.2.228 > 1.2.230)
+-EnderCore (0.5.69 > 0.5.73)
+-Ender IO (5.1.51 > 5.1.52)
+-Ender IO Endergy (5.1.51 > 5.1.52)
+-Ender IO Zoo (5.1.51 > 5.1.52)
+-FTB Library (5.4.3.131 > 5.4.4.4)
+-FTB Utilities (5.4.0.107 > 5.4.0.122)
+-Flux Networks (4.0.11 > 4.0.13)
+-FoamFix (0.10.7 > 0.10.8)
+-Forestry (5.8.2.406 > 5.8.2.409)
+-GalacticraftCore (4.0.2.237 > 4.0.2.238)
+-Galacticraft Planets (4.0.2.237 > 4.0.2.238)
+-Just Enough Items (4.15.0.291 > 4.15.0.292)
+-Logistics Bridge (1.2.2 > 1.2.5)
+-MicdoodleCore (4.0.2.237 > 4.0.2.238)
+-More Planets (2.1.8 > 2.1.10)
+-Nature's Compass (1.5.1 > 1.6.0)
+-p455w0rd's Library (2.2.156 > 2.3.161)
+-PneumaticCraft: Repressurized (0.11.5-371 > 0.11.7-375)
+-Reborn Core (3.16.3.476 > 3.16.4.478)
+-The Twilight Forest (3.9.984 > 3.10.1013)
+-ThermalLogistics (0.2-26 > 0.2-29)
+-Tinkers Construct (2.12.0.157 > 2.13.0.171)
+-Wireless Crafting Terminal (3.12.93 > 3.12.97)
+-Xaero's Minimap (1.18.3.1 > 1.18.9)
+-Xaero's World Map (1.4.10.1 > 1.5.0.1)
+
+SERVER:
+-
+
+
 Star Tech 2.3.1  (10-14-2019)
 -------------------------------------
 COMMENTS:
@@ -155,7 +234,10 @@ SERVER:
 -Updated World Primer (0.6.0-dev.20190525.121747 > 0.6.0-dev.20190814.220944)
 
 
-https://www.curseforge.com/minecraft/modpacks/star-tech/filesStar Tech 2.0.1  (09-15-2019)
+https://www.curseforge.com/minecraft/modpacks/star-tech/files
+
+
+Star Tech 2.0.1  (09-15-2019)
 -------------------------------------
 COMMENTS:
 

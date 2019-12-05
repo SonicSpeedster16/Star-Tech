@@ -1211,28 +1211,6 @@
   },
   {
     "coreMaterialStats": {
-      "durability": 84.0,
-      "defense": 8.1,
-      "materialType": "core"
-    },
-    "platesMaterialStats": {
-      "durability": 27.216,
-      "modifier": 8.1,
-      "toughness": -0.0,
-      "materialType": "plates"
-    },
-    "trimMaterialStats": {
-      "extraDurability": 27.216,
-      "materialType": "trim"
-    },
-    "identifier": "pink_slime",
-    "color": -31571,
-    "type": "METAL",
-    "castable": false,
-    "craftable": true
-  },
-  {
-    "coreMaterialStats": {
       "durability": 89.0,
       "defense": 50.0,
       "materialType": "core"

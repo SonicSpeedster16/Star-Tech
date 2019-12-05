@@ -12,7 +12,7 @@ recipes.addShaped("Matter Overdrive Industrial Glass",
   [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
   [<matteroverdrive:tritanium_plate>, null, <matteroverdrive:tritanium_plate>]
 ]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<matteroverdrive:industrial_glass>, <matteroverdrive:tritanium_ingot>, <minecraft:glass>, 8000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<matteroverdrive:industrial_glass>, <matteroverdrive:tritanium_dust>, <minecraft:glass>, 8000);
 
 # Microwave
 recipes.addShaped("Microwave",

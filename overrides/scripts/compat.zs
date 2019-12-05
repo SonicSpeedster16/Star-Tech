@@ -132,17 +132,17 @@ mods.extrautils2.Crusher.add(<netherex:frost_powder> * 4, <netherex:frost_rod>);
 mods.appliedenergistics2.Grinder.addRecipe(<netherex:frost_powder> * 4, <netherex:frost_rod>, 4);
 mods.mekanism.enrichment.addRecipe(<netherex:frost_rod>, <netherex:frost_powder> * 4);
 
-# Add additional processing recipes for Tinkers' ores
-mods.mekanism.enrichment.addRecipe(<tconstruct:ore:0>, <enderio:item_material:31> * 2); /* Cobalt */
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore:0>, 4000); /* Cobalt */
-mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2); /* Ardite */
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 4000); /* Ardite */
-
 # Add additional processing recipes for Matter Overdrive ores
 mods.mekanism.smelter.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_ingot>); /* Tritanium Ore */
 mods.mekanism.smelter.addRecipe(<matteroverdrive:tritanium_dust>, <matteroverdrive:tritanium_ingot>); /* Tritanium Dust */
 mods.mekanism.enrichment.addRecipe(<matteroverdrive:dilithium_ore>, <matteroverdrive:dilithium_crystal> * 4); /* Dilithium */
 mods.mekanism.enrichment.addRecipe(<matteroverdrive:tritanium_ore>, <matteroverdrive:tritanium_dust> * 2); /* Tritanium */
+
+# Add additional processing recipes for Tinkers' ores
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:0>, <enderio:item_material:31> * 2); /* Cobalt */
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore:0>, 4000); /* Cobalt */
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2); /* Ardite */
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 4000); /* Ardite */
 
 # The Mekanism Purification Chamber should also be able to process ores from Galacticraft and More Planets
 mods.mekanism.purification.addRecipe(<galacticraftplanets:mars:3>, <gas:oxygen>, <mekanism:clump>*3); /* Iron */
