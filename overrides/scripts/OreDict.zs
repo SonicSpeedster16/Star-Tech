@@ -124,9 +124,17 @@ print("==== Initializing OreDict.zs ====");
 <ore:listAllmushroom>.add(<biomesoplenty:mushroom:4>); /* Flat Mushroom */
 <ore:listAllmushroom>.add(<biomesoplenty:mushroom:2>); /* Milk Caps */
 <ore:cropWhitemushroom>.add(<biomesoplenty:mushroom:1>); /* Portobella */
+<ore:listAllmushroom>.add(<biomesoplenty:mushroom:0>); /* Toadstool */
 <ore:listAllmushroom>.add(<biomesoplenty:mushroom:1>); /* Portobella */
 <ore:listAllmushroom>.add(<netherex:brown_elder_mushroom>);
 <ore:listAllmushroom>.add(<netherex:red_elder_mushroom>);
+# Fruit
+<ore:listAllfruit>.add(<forestry:fruits:0>); /* Cherry */
+<ore:listAllfruit>.add(<forestry:fruits:3>); /* Lemon */
+<ore:listAllcitrus>.add(<forestry:fruits:3>);
+<ore:listAllfruit>.add(<forestry:fruits:4>); /* Plum */
+<ore:listAllfruit>.add(<forestry:fruits:5>); /* Date */
+<ore:listAllfruit>.add(<forestry:fruits:6>); /* Papaya */
 # Berries
 <ore:listAllberry>.add(<biomesoplenty:berries>);
 <ore:listAllfruit>.add(<biomesoplenty:berries>);
@@ -138,6 +146,9 @@ print("==== Initializing OreDict.zs ====");
 <ore:listAllberry>.add(<moreplanets:strawberry>);
 <ore:cropBlueberry>.add(<moreplanets:giant_blueberry>);
 <ore:listAllberry>.add(<moreplanets:giant_blueberry>);
+# Nuts
+<ore:listAllnut>.add(<forestry:fruits:1>); /* Walnut */
+<ore:listAllnut>.add(<forestry:fruits:2>); /* Chestnut */
 # Kelp
 <ore:cropSeaweed>.add(<biomesoplenty:seaweed>);
 <ore:listAllgreenveggie>.add(<biomesoplenty:seaweed>);

@@ -16,12 +16,7 @@ Custom Tooltips
 <matteroverdrive:microwave>.addTooltip(format.yellow("Decorative only"));
 <conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
-
-# Locational tips
 <galacticraftcore:dungeonfinder>.addTooltip(format.aqua("Can be obtained in Survival Mode from Tier 2 Treasure Chests on Mars"));
-<appliedenergistics2:sky_stone_block>.addTooltip(format.aqua("Sky Stone can only be obtained from fallen meteors in the Mining Dimension"));
-<appliedenergistics2:sky_compass>.addTooltip(format.aqua("AE2 meteors can only be found in the Mining Dimension"));
-<lightningcraft:material:11>.addTooltip(format.aqua("Can be found in structures on the ceiling of the Underworld")); /* Ichor */
 
 # Warnings
 <logisticspipes:sign_creator>.addTooltip(format.red("WARNING: May cause severe FPS lag!"));
@@ -76,11 +71,10 @@ JEI.removeAndHide(<twilightforest:uncrafting_table>); /* Exploitable */
 JEI.removeAndHide(<netherex:obsidian_boat>); /* Exploitable */
 JEI.removeAndHide(<minecraft:record_11>); /* Exploitable */
 JEI.removeAndHide(<hooked:hook:3>); /* Can cause server crashes */
-JEI.removeAndHide(<lightningcraft:lightning_miner>); /* Causes world-breaking crashes */
+JEI.removeAndHide(<lightningcraft:lightning_miner>); /* Causes world-corrupting crashes */
 JEI.removeAndHide(<matteroverdrive:matter_pipe>); /* Broken - item doesn't work */
 JEI.removeAndHide(<matteroverdrive:heavy_matter_pipe>); /* Broken - item doesn't work */
-
-# Remove items that could potentially be exploited to get space materials early
+// Remove items that could potentially be exploited to get space materials early
 JEI.removeAndHide(<extrabees:honey_comb:40>); /* Zinc Comb */
 JEI.removeAndHide(<extrabees:misc:14>); /* Zinc Grains */
 JEI.removeAndHide(<extrabees:honey_comb:41>); /* Titanium Comb */

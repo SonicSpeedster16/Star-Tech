@@ -79,6 +79,8 @@ recipes.removeByRecipeName("inventorypets:nugget_diamond_alt");
 recipes.removeByRecipeName("inventorypets:nugget_obsidian_alt");
 recipes.removeByRecipeName("inventorypets:nugget_lapis_alt");
 recipes.removeByRecipeName("inventorypets:nugget_ender_alt");
+recipes.removeByRecipeName("inventorypets:nugget_coal_alt");
+recipes.removeByRecipeName("inventorypets:nugget_emerald_alt");
 recipes.removeByRecipeName("enderio:capacitor_crystalline_alt");
 recipes.removeByRecipeName("extrautils2:shortcut_stick");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
@@ -140,12 +142,6 @@ recipes.addShaped("Tiny Charcoal_alt",
 /*~~~~~~~~~~~
 Misc. recipes
 ~~~~~~~~~~~~*/
-# Make the LightningCraft Guide craftable
-recipes.addShaped("LightningCraft Guidebook",
-<lightningcraft:guide>, [
-  [<lightningcraft:golf_club>, <minecraft:book>, null]
-]);
-
 # Tweak the Infinity Booster Card recipe to require Nether Stars
 recipes.remove(<ae2wtlib:infinity_booster_card>);
 recipes.addShaped("Infinity_Booster_Card_custom",
@@ -153,6 +149,15 @@ recipes.addShaped("Infinity_Booster_Card_custom",
   [<appliedenergistics2:material:48>, null, <appliedenergistics2:material:48>],
   [null, <appliedenergistics2:material:41>, null],
   [<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>]
+]);
+
+# Make sure the Illuminati Pet can only be obtained end-game
+recipes.remove(<inventorypets:illuminati_pet>);
+recipes.addShaped("Illuminati_pet_custom",
+<inventorypets:illuminati_pet>, [
+  [<ore:nuggetEmerald>, <ore:nuggetEmerald>, <ore:nuggetEmerald>],
+  [<ore:nuggetEmerald>, <ore:ingotTungsten>, <ore:nuggetEmerald>],
+  [<ore:nuggetEmerald>, <minecraft:nether_star>, <ore:nuggetEmerald>]
 ]);
 
 # Add recipe for More Planets Tinted Glass
@@ -224,15 +229,27 @@ mods.mekanism.enrichment.addRecipe(<netherex:frost_powder>, <thermalfoundation:m
 Add QoL recipes
 ~~~~~~~~~~~~~~*/
 
-# Clay Blocks -> Clay Balls
-recipes.addShapeless("Block of Clay to Clay Balls", 
+# 2 Logs -> 16 Sticks
+recipes.addShapeless("Logs to Sticks",
+<minecraft:stick> * 16, [<ore:logWood>,<ore:logWood>]);
+
+# Logs -> Chest
+recipes.addShaped("Logs to Chest",
+<minecraft:chest> * 4, [
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+  [<ore:logWood>, null, <ore:logWood>],
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
+# Clay Blocks -> Clay
+recipes.addShapeless("Block of Clay to Clay", 
 <minecraft:clay_ball> * 4, [<minecraft:clay>]);
 
 # Block of Quartz -> Quartz
 recipes.addShapeless("Block of Quartz to Quartz",
 <minecraft:quartz> * 4, [<minecraft:quartz_block>]);
 
-# Blocks/Piller of Black Quartz -> Black Quartz
+# Blocks/Pillers of Black Quartz -> Black Quartz
 recipes.addShapeless("Block of Black Quartz to Black Quartz", 
 <actuallyadditions:item_misc:5> * 4, [<actuallyadditions:block_misc:2>]);
 recipes.addShapeless("Chiseled Block of Black Quartz to Black Quartz", 
@@ -240,17 +257,21 @@ recipes.addShapeless("Chiseled Block of Black Quartz to Black Quartz",
 recipes.addShapeless("Pillar of Black Quartz to Black Quartz", 
 <actuallyadditions:item_misc:5> * 2, [<actuallyadditions:block_misc:0>]);
 
-# Snow Blocks -> Snow Balls
+# Snow Blocks -> Snowballs
 recipes.addShapeless("Block of Snow to Snowballs", 
 <minecraft:snowball> * 4, [<minecraft:snow>]);
+
+# Block of Glowstone -> Glowstone Dust
+recipes.addShapeless("Block of Glowstone to Glowstone Dust",
+<minecraft:glowstone_dust> * 4, [<minecraft:glowstone>]);
 
 # Salt Blocks -> Salt
 recipes.addShapeless("Block of Salt to Salt", 
 <mekanism:salt> * 4, [<mekanism:saltblock>]);
 mods.mekanism.enrichment.removeRecipe(<mekanism:saltblock>);
 
-# Mud Blocks -> Mud Balls
-recipes.addShapeless("Block of Mud to Mud Balls", 
+# Mud Blocks -> Mudballs
+recipes.addShapeless("Block of Mud to Mudballs", 
 <biomesoplenty:mudball> * 4, [<biomesoplenty:mud>]);
 
 # Beetroot -> Beetroot Seeds
