@@ -16,7 +16,11 @@ Custom Tooltips
 <matteroverdrive:microwave>.addTooltip(format.yellow("Decorative only"));
 <conarm:armorforge>.addTooltip(format.yellow("Can be made from any metal block"));
 <tconstruct:toolforge>.addTooltip(format.yellow("Can be made from any metal block"));
+
+# Locational tips
 <galacticraftcore:dungeonfinder>.addTooltip(format.aqua("Can be obtained in Survival Mode from Tier 2 Treasure Chests on Mars"));
+<appliedenergistics2:sky_stone_block>.addTooltip(format.aqua("Sky Stone can only be obtained from fallen meteors in the Mining Dimension"));
+<appliedenergistics2:sky_compass>.addTooltip(format.aqua("AE2 meteors can only be found in the Mining Dimension"));
 
 # Warnings
 <logisticspipes:sign_creator>.addTooltip(format.red("WARNING: May cause severe FPS lag!"));
